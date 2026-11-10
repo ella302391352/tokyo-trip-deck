@@ -31,3 +31,9 @@
 - 動作：先討論後生成（使用者決定：只寫成人價；機場交通先放交通頁小節）；新增 sources/jnto-useful-tickets-tokyo、concepts/transit-passes；更新 concepts/accommodation-area（住宿地點影響選票）、overview、index
 - 檢查：check.py 第 1 輪 0 錯誤；過期偵測正確觸發（資訊日期 2024-12、來源日期超過 12 個月）。同頁重複警告太多，改為每頁彙總一行；以真實 wiki＋測試副本各跑一次確認
 - 出錯：無（內容）。待解：Tokyo Subway Ticket 新價格缺乏可存檔的官方來源，標為可能過期（待查）
+
+## [2026-11-10] N2 ingest | zhgchgli-tokyo-5day-2023
+- 動作：先討論後生成（使用者同意新增「新手常見錯誤」「預算與付款」兩頁；景點遊玩細節不收）；新增 sources/zhgchgli-tokyo-5day-2023、concepts/common-mistakes、concepts/budget；更新 transit-passes（機場踩雷、Android 用 Welcome Suica）、itinerary-planning（熱門景點先買票，消掉 1 項待查）、accommodation-area（一間住到底的實例）、overview、index
+- 檢查：寫完後自我複查 → check.py 第 1 輪 0 錯誤；log.md 被誤報含過期資訊，check.py 改為不檢查 log
+- 出錯：有 — ① 「新手常見錯誤」頁寫進一條來源中沒人犯過、由 AI 自行假設的錯誤（Tokyo Subway Ticket 購買資格），屬「超出來源」，已刪除並在頁首註明只收實際發生的錯誤 ② SIM 卡「$500」原文無幣別，差點被預設幣別，已註明（N2）③ 原文內部矛盾：不能刷卡的地點「東京車站」vs「新橋」，以 ⚠️ 標記
+- 紀錄：reviews/2026-11-10-N2-zhgchgli-tokyo-5day-2023.md

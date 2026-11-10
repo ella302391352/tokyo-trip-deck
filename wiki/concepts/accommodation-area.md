@@ -1,6 +1,6 @@
 ---
 type: concept
-sources: [gotokyo-5day-itinerary, jnto-useful-tickets-tokyo]
+sources: [gotokyo-5day-itinerary, jnto-useful-tickets-tokyo, zhgchgli-tokyo-5day-2023]
 updated: 2026-11-10
 ---
 # 住宿區域怎麼選
@@ -26,6 +26,12 @@ updated: 2026-11-10
 ## 住宿地點也決定交通票券
 
 住在 JR 車站附近，多半會搭 JR 線；住在地鐵站附近，則較適合地鐵票或 JR／地鐵組合票（[jnto-useful-tickets-tokyo](../sources/jnto-useful-tickets-tokyo.md)）。選住宿時，可以順便看看附近是哪一種車站。→ [交通票券怎麼選](transit-passes.md)
+
+## 實例：一間住到底、選位置居中靠近車站
+
+一位台灣旅客 5 天只玩東京，所以找一間住 4 晚不用換的飯店；因為訂得晚，東橫 Inn、APA 等連鎖都沒空房，改在訂房網站上找「東京地圖靠近中間又有電車地鐵站」的飯店，最後住汐留：出站就是汐留站，可直達台場或新宿，走 10 分鐘到新橋站（個人經驗，資訊日期 2023-06，[zhgchgli-tokyo-5day-2023](../sources/zhgchgli-tokyo-5day-2023.md)）。
+
+→ 太晚訂房的教訓也收在 [新手常見錯誤](common-mistakes.md)。
 
 ## 尚未有資料的部分
 

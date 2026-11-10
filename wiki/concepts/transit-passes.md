@@ -1,6 +1,6 @@
 ---
 type: concept
-sources: [jnto-useful-tickets-tokyo, gotokyo-5day-itinerary]
+sources: [jnto-useful-tickets-tokyo, gotokyo-5day-itinerary, zhgchgli-tokyo-5day-2023]
 updated: 2026-11-10
 ---
 # 交通票券怎麼選
@@ -22,6 +22,9 @@ updated: 2026-11-10
 
 （資訊日期 2024-12，[jnto-useful-tickets-tokyo](../sources/jnto-useful-tickets-tokyo.md)）
 
+- 實例：iPhone 可直接使用西瓜卡；同行的 Android 使用者只能在成田機場購買 Welcome Suica（限時西瓜卡）（個人經驗，資訊日期 2023-06，[zhgchgli-tokyo-5day-2023](../sources/zhgchgli-tokyo-5day-2023.md)）。
+- IC 卡不是萬能：往成田機場的車票曾遇到不能用 Suica 購買的情況，見下方機場一節與 [預算與付款](budget.md)。
+
 ## 一日券／周遊券（依可搭路線分類）
 
 | 可搭路線 | 票券 | 成人價 | 備註 |
@@ -42,6 +45,12 @@ updated: 2026-11-10
 - **N'EX 東京來回票**：成田特快（N'EX）往返成田機場與品川、澀谷、新宿、池袋、大宮、橫濱、大船等主要車站，免轉乘；14 天內有效，成人 5,000 円；**限外國旅客**（查驗護照），只在成田機場第 1、2 航廈 JR 售票處及 JR 東日本旅遊服務中心販售。搭上 N'EX 後可轉乘指定東京區域內的其他 JR 東日本列車，但出閘門後不能再次進站（資訊日期 2024-12，[jnto-useful-tickets-tokyo](../sources/jnto-useful-tickets-tokyo.md)）。
 - **利木津巴士來回優惠券**：給抵達成田機場旅客的優惠券，成人 6,000 円，在成田機場利木津巴士售票櫃台購買（資訊日期 2024-12，[jnto-useful-tickets-tokyo](../sources/jnto-useful-tickets-tokyo.md)）。
 
+**踩雷實例**（個人經驗，資訊日期 2023-06，[zhgchgli-tokyo-5day-2023](../sources/zhgchgli-tokyo-5day-2023.md)）：
+- 去程直接用西瓜卡刷進站要搭成田特快，結果整班都是指定席，只能出站買票再進站。作者補充「好像」可以在站內月台機器買票，未確認。
+- 回程從新橋搭都營淺草線機場快線往成田，約 1 小時 15 分，但車票不能刷卡、不能用 Suica 購買，只能付現。
+
+> ⚠️ 矛盾（原文內部）：同一篇前言說不能刷卡的是在「東京車站」買往成田的車票，與上述「新橋」不同。見 [來源頁](../sources/zhgchgli-tokyo-5day-2023.md)。
+
 ## 尚未有資料的部分
 
 - 羽田機場到市區的方式（待查）
@@ -51,4 +60,6 @@ updated: 2026-11-10
 
 - [住宿區域怎麼選](accommodation-area.md)
 - [行程怎麼排](itinerary-planning.md)
+- [新手常見錯誤](common-mistakes.md)
+- [預算與付款](budget.md)
 - [總綜述](../overview.md)

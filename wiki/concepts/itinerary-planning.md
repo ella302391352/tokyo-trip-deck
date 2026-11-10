@@ -1,6 +1,6 @@
 ---
 type: concept
-sources: [gotokyo-5day-itinerary]
+sources: [gotokyo-5day-itinerary, zhgchgli-tokyo-5day-2023]
 updated: 2026-11-10
 ---
 # 行程怎麼排
@@ -30,14 +30,20 @@ GO TOKYO 的參考行程「將相近的目的地依序分為一組」，並說�
 
 > ⚠️ 矛盾（原文內部）：原文稱第 1、3、4 天可涵蓋「東部、中部及南部」，但第 4 天在同篇被標為「西部」。見 [來源頁](../sources/gotokyo-5day-itinerary.md)。
 
+## 原則三：熱門景點先買票
+
+實例：三人在出發前兩週先買好東京迪士尼海洋、橫濱鋼彈、SHIBUYA SKY 的票，作者表示「以上沒有先買，到現場都是沒有空的位子可以進去的」（個人經驗，資訊日期 2023-06，[zhgchgli-tokyo-5day-2023](../sources/zhgchgli-tokyo-5day-2023.md)）。
+
+→ 排行程時，先標出需要預購的景點，盡早買票。更多踩雷見 [新手常見錯誤](common-mistakes.md)。
+
 ## 尚未有資料的部分
 
 - 區域之間的移動方式與時間（待查）
-- 哪些景點需要事先購票或預約（待查）
 - 一天排幾個景點才不會太趕（待查）
 
 ## 相關頁面
 
 - [住宿區域怎麼選](accommodation-area.md)
 - [東京區域與景點](../places/tokyo-areas.md)
+- [新手常見錯誤](common-mistakes.md)
 - [總綜述](../overview.md)

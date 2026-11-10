@@ -83,7 +83,7 @@ def check_wiki():
 
     for p, text in texts.items():
         stale = [f"{y}-{m}" for y, m in INFO_DATE.findall(text) if months_ago(int(y), int(m)) > STALE_MONTHS]
-        if stale:
+        if stale and p.name != "log.md":  # log 是歷史紀錄，提到舊日期是正常的
             warnings.append(f"{rel(p)}: {len(stale)} 處時效資訊可能過期（資訊日期 {', '.join(sorted(set(stale)))}）")
 
         if p.parent == WIKI and p.name in SPECIAL:
