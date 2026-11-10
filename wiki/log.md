@@ -26,3 +26,8 @@
 - 檢查：check.py 第 1 輪 3 錯誤（工具誤判）→ 修正 check.py → 第 2 輪 0 錯誤、5 警告
 - 出錯：有 — ① 原文內部矛盾（3 天方案「南部」vs 第 4 天「西部」），以 ⚠️ 標記 ② check.py 邊讀邊判斷導致孤兒頁誤判（N2）
 - 紀錄：reviews/2026-11-10-N2-gotokyo-5day-itinerary.md
+
+## [2026-11-10] N2 ingest | jnto-useful-tickets-tokyo
+- 動作：先討論後生成（使用者決定：只寫成人價；機場交通先放交通頁小節）；新增 sources/jnto-useful-tickets-tokyo、concepts/transit-passes；更新 concepts/accommodation-area（住宿地點影響選票）、overview、index
+- 檢查：check.py 第 1 輪 0 錯誤；過期偵測正確觸發（資訊日期 2024-12、來源日期超過 12 個月）。同頁重複警告太多，改為每頁彙總一行；以真實 wiki＋測試副本各跑一次確認
+- 出錯：無（內容）。待解：Tokyo Subway Ticket 新價格缺乏可存檔的官方來源，標為可能過期（待查）

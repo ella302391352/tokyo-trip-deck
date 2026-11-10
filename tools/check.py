@@ -82,9 +82,9 @@ def check_wiki():
                     index_links.add(resolved)
 
     for p, text in texts.items():
-        for y, m in INFO_DATE.findall(text):
-            if months_ago(int(y), int(m)) > STALE_MONTHS:
-                warnings.append(f"{rel(p)}: 時效資訊可能過期（資訊日期 {y}-{m}）")
+        stale = [f"{y}-{m}" for y, m in INFO_DATE.findall(text) if months_ago(int(y), int(m)) > STALE_MONTHS]
+        if stale:
+            warnings.append(f"{rel(p)}: {len(stale)} 處時效資訊可能過期（資訊日期 {', '.join(sorted(set(stale)))}）")
 
         if p.parent == WIKI and p.name in SPECIAL:
             continue

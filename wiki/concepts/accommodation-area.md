@@ -1,6 +1,6 @@
 ---
 type: concept
-sources: [gotokyo-5day-itinerary]
+sources: [gotokyo-5day-itinerary, jnto-useful-tickets-tokyo]
 updated: 2026-11-10
 ---
 # 住宿區域怎麼選
@@ -23,6 +23,10 @@ updated: 2026-11-10
 
 原文建議「根據旅行的目的地來選擇住宿區域」（[gotokyo-5day-itinerary](../sources/gotokyo-5day-itinerary.md)），也就是先排好行程、再看住哪裡方便。
 
+## 住宿地點也決定交通票券
+
+住在 JR 車站附近，多半會搭 JR 線；住在地鐵站附近，則較適合地鐵票或 JR／地鐵組合票（[jnto-useful-tickets-tokyo](../sources/jnto-useful-tickets-tokyo.md)）。選住宿時，可以順便看看附近是哪一種車站。→ [交通票券怎麼選](transit-passes.md)
+
 ## 尚未有資料的部分
 
 - 各類型住宿的價格（待查）
@@ -32,5 +36,6 @@ updated: 2026-11-10
 ## 相關頁面
 
 - [行程怎麼排](itinerary-planning.md)
+- [交通票券怎麼選](transit-passes.md)
 - [東京區域與景點](../places/tokyo-areas.md)
 - [總綜述](../overview.md)
