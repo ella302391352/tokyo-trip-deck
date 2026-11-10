@@ -10,6 +10,7 @@
 --start / --end 用來切掉導覽列、頁尾等非內文部分（保留 start 那行，不含 end 那行）。
 """
 import argparse
+import json
 import re
 import sys
 import urllib.request
@@ -127,7 +128,7 @@ def main():
 
     fm = (
         "---\n"
-        f"title: {a.title}\n"
+        f"title: {json.dumps(a.title, ensure_ascii=False)}\n"
         f"url: {a.url}\n"
         f"publisher: {a.publisher}\n"
         f"source_type: {a.type}\n"
