@@ -67,11 +67,12 @@ def links_in(path: Path, text: str):
 def check_wiki():
     pages = sorted(WIKI.rglob("*.md")) if WIKI.exists() else []
     source_slugs = {p.stem for p in (WIKI / "sources").glob("*.md")}
+    texts = {p: p.read_text(encoding="utf-8-sig") for p in pages}
     inbound = {p.resolve(): 0 for p in pages}
     index_links = set()
 
-    for p in pages:
-        text = p.read_text(encoding="utf-8-sig")
+    # 先統計全部連結，再逐頁判斷孤兒頁／index 遺漏（否則排在 index.md 前面的頁面會誤判）
+    for p, text in texts.items():
         for target, resolved in links_in(p, text):
             if not resolved.exists():
                 errors.append(f"{rel(p)}: 斷鏈 → {target}")
@@ -80,6 +81,7 @@ def check_wiki():
                 if p.name == "index.md" and p.parent == WIKI:
                     index_links.add(resolved)
 
+    for p, text in texts.items():
         for y, m in INFO_DATE.findall(text):
             if months_ago(int(y), int(m)) > STALE_MONTHS:
                 warnings.append(f"{rel(p)}: 時效資訊可能過期（資訊日期 {y}-{m}）")

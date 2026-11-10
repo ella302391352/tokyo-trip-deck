@@ -20,3 +20,9 @@
 - 動作：搜尋遊記，提出 4 篇候選（B1–B4），使用者核准 B1；存入 raw/papers/zhgchgli-tokyo-5day-2023.md
 - 檢查：check.py 0 錯誤
 - 出錯：有 — 標題以「[」開頭，frontmatter 未加引號會被 YAML 解析成清單；修正 fetch_raw.py 一律為 title 加引號，刪除剛建立（尚未被引用）的檔案後以同一原文重抓（N1）。另 Dcard 候選抓取失敗已排除
+
+## [2026-11-10] N2 ingest | gotokyo-5day-itinerary
+- 動作：先討論後生成（使用者確認重點與頁面規劃）；新增 sources/gotokyo-5day-itinerary、concepts/itinerary-planning、concepts/accommodation-area、places/tokyo-areas；更新 overview、index
+- 檢查：check.py 第 1 輪 3 錯誤（工具誤判）→ 修正 check.py → 第 2 輪 0 錯誤、5 警告
+- 出錯：有 — ① 原文內部矛盾（3 天方案「南部」vs 第 4 天「西部」），以 ⚠️ 標記 ② check.py 邊讀邊判斷導致孤兒頁誤判（N2）
+- 紀錄：reviews/2026-11-10-N2-gotokyo-5day-itinerary.md
