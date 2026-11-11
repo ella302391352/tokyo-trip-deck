@@ -76,3 +76,9 @@
 - 檢查：check.py 0 錯誤；AI 審查第 1 輪 1 問題 → 修正 → 第 2 輪通過
 - 出錯：有 — 把未指明地區的巴士票價歸在「東京交通價格」標題下，擴大了原文範圍（N2）。新規則生效：N1 看到的英文版 "pint" 只在討論中說明，未寫入 wiki
 - 紀錄：reviews/2026-11-11-N2-jnto-budget-guide.md
+
+## [2026-11-11] N2 ingest | gotokyo-accommodations
+- 動作：先討論後生成（高級飯店區域兩說並列；非法民宿不放常見錯誤）；新增 sources/gotokyo-accommodations；更新 concepts/accommodation-area（住宿類型補充、⚠️ 說法不一致、民宿、住宿稅，消掉 2 項待查）、overview、index
+- 檢查：check.py 0 錯誤；AI 審查第 1 輪 1 問題 → 修正 → 第 2 輪通過
+- 出錯：有 — 民宿編號規定漏標「原文無日期」（N2）
+- 紀錄：reviews/2026-11-11-N2-gotokyo-accommodations.md

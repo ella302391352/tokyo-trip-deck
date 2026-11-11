@@ -1,18 +1,18 @@
 ---
 type: overview
-sources: [gotokyo-5day-itinerary, jnto-useful-tickets-tokyo, zhgchgli-tokyo-5day-2023, boca-japan-entry, funjapan-visit-japan-web, jnto-budget-guide]
+sources: [gotokyo-5day-itinerary, jnto-useful-tickets-tokyo, zhgchgli-tokyo-5day-2023, boca-japan-entry, funjapan-visit-japan-web, jnto-budget-guide, gotokyo-accommodations]
 updated: 2026-11-11
 ---
 # 總綜述：第一次自由行怎麼規劃
 
-目前已 ingest 6 篇來源（4 篇官方、1 篇媒體教學、1 篇個人遊記）。這一頁反映 wiki 對「自由行規劃流程」的整體理解，每次 ingest 都會更新。
+目前已 ingest 7 篇來源（5 篇官方、1 篇媒體教學、1 篇個人遊記）。這一頁反映 wiki 對「自由行規劃流程」的整體理解，每次 ingest 都會更新。
 
 ## 規劃流程
 
 1. **預算**：JNTO 表示事先完整規劃，即使很在意預算也能負擔日本旅遊；官方物價參考如拉麵約 650 日圓起、青年旅社約 3,000 日圓一晚（原文無日期）。一位旅客的經驗是不是到處都能刷卡，身上要留約 1 萬円現金（個人經驗，資訊日期 2023-06）。→ [預算與付款](concepts/budget.md)
 2. **入境準備**：台灣護照（有身分證統一編號）免簽、每次最多 90 天，原則上僅適用觀光等目的；自助旅行要備妥來回機票、日程表、住宿與交通紀錄、付款能力等資料備查；入境要填申報單、按指紋拍照（資訊日期 2022-06）。也可以出發前用免費的 Visit Japan Web 線上登錄、取得 QR Code，非強制，紙本仍可用（資訊日期 2026-08）。→ [入境準備](concepts/entry-requirements.md)
 3. **交通**：先看自己會搭哪些路線再選票；基本款是可儲值的 Suica／PASMO，另有依路線分類的一日券，部分只賣外國旅客。價格資料為 2024-12，可能已過期。→ [交通票券怎麼選](concepts/transit-passes.md)
-4. **住宿**：依旅遊目的與要去的區域挑選住宿；東京的高級飯店集中在都心與灣岸、商務旅館多在主要車站站前、下町有家庭旅館與青年旅舍。→ [住宿區域怎麼選](concepts/accommodation-area.md)
+4. **住宿**：依旅遊目的與要去的區域挑選住宿；東京的高級飯店集中在都心與灣岸、商務旅館多在主要車站站前、下町有家庭旅館與青年旅舍。訂民宿要確認申報編號（東京都內為「M13」開頭）或許可編號，以避開非法民宿；每人每晚 10,000 日圓以上可能需繳住宿稅（原文無日期）。→ [住宿區域怎麼選](concepts/accommodation-area.md)
 5. **行程**：把相近的景點分成一組排同一天；東京想悠閒遊覽至少 5 天，天數不夠就從分組中挑；一篇遊記的作者提前買熱門景點門票，否則現場沒位子（個人經驗，資訊日期 2023-06，[zhgchgli-tokyo-5day-2023](sources/zhgchgli-tokyo-5day-2023.md)）。→ [行程怎麼排](concepts/itinerary-planning.md)、[東京區域與景點](places/tokyo-areas.md)
 
 各步驟的實際踩雷經驗 → [新手常見錯誤](concepts/common-mistakes.md)
