@@ -21,7 +21,7 @@ updated: 2026-11-10
 
 （[gotokyo-5day-itinerary](../sources/gotokyo-5day-itinerary.md)）
 
-原文建議「根據旅行的目的地來選擇住宿區域」（[gotokyo-5day-itinerary](../sources/gotokyo-5day-itinerary.md)），也就是先排好行程、再看住哪裡方便。
+原文建議「根據旅行的目的地來選擇住宿區域」（[gotokyo-5day-itinerary](../sources/gotokyo-5day-itinerary.md)），也就是先排好行程、再看住哪裡方便（整理者推論）。
 
 ## 住宿地點也決定交通票券
 

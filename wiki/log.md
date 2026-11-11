@@ -43,3 +43,13 @@
 - 檢查：check.py 0 錯誤；AI 審查 10 頁中 6 頁需修改，9 個確定問題、4 個不確定
 - 出錯：有 — 9 個問題全部源自 N2 生成階段（找不到來源 4、講反 2、語氣改變 1、個人經驗泛化 2），數字與日期抄錄 0 錯誤
 - 紀錄：reviews/2026-11-10-N3-lint.md
+
+## [2026-11-11] N3 lint | 第 1 次修正（第 2 輪）
+- 動作：使用者確認後修正 13 處（overview、3 個 sources 頁、itinerary-planning、accommodation-area、budget、common-mistakes、tokyo-areas）
+- 檢查：check.py 0 錯誤；AI 複審 13 處全部已修正、無新問題 → 通過
+- 出錯：無
+
+## [2026-11-11] workflow | 把 AI 審查往前移到 N2
+- 動作：使用者同意修改 AGENTS.md：N2 完成標準新增「每篇 ingest 後，對本次新增／修改頁面做忠於來源的 AI 審查」；N3 改為著重跨頁問題
+- 原因：N3 第 1 次 lint 發現 9 個問題全部在 N2 產生，check.py 與 N2 自我複查都抓不到；累積 3 篇才審，錯誤已擴散到多頁（例如同一個「熱門景點先買票」泛化同時出現在 overview、itinerary-planning、common-mistakes）
+- 出錯：無
