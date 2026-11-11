@@ -42,7 +42,7 @@ updated: 2026-11-10
 
 ## 計程車與公車
 
-- 東京計程車基本車資 500 日圓起；巴士基本票價 210 日圓起（原文無日期，[jnto-budget-guide](../sources/jnto-budget-guide.md)）。
+- 東京計程車基本車資 500 日圓起；巴士基本票價 210 日圓起（巴士原文未指明地區）（原文無日期，[jnto-budget-guide](../sources/jnto-budget-guide.md)）。
 - 計程車適合行李多時的市區短程，但收費昂貴，最好避免長途（[jnto-budget-guide](../sources/jnto-budget-guide.md)）。
 
 > ⚠️ 可能過期：Tokyo Subway Ticket 價格可能已調整，但目前沒有可存成 raw 的官方來源可證實（待查）。見 [來源頁](../sources/jnto-useful-tickets-tokyo.md)。

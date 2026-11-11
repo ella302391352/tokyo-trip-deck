@@ -1,6 +1,6 @@
 ---
 type: index
-updated: 2026-11-10
+updated: 2026-11-11
 ---
 # 自由行規劃 Wiki 目錄
 
@@ -26,8 +26,8 @@ updated: 2026-11-10
 | [住宿區域怎麼選](concepts/accommodation-area.md) | 依目的與區域選住宿；各類價格；各區特色；住宿地點影響選票；辨別合法民宿；住宿稅 |
 | [交通票券怎麼選](concepts/transit-passes.md) | 依會搭的路線選票；Suica／PASMO；一日券分類表；成田機場票券與踩雷 |
 | [入境準備](concepts/entry-requirements.md) | 免簽條件、要準備的文件、入境審查、海關申報、禁止攜帶、Visit Japan Web |
-| [預算與付款](concepts/budget.md) | 官方物價與省錢方法；要帶現金；個人花費案例；機票與旅遊保險 |
-| [新手常見錯誤](concepts/common-mistakes.md) | 依行程／交通／付款／住宿分類的實際踩雷經驗 |
+| [預算與付款](concepts/budget.md) | 官方物價與省錢方法；別只靠信用卡（遊記經驗）；個人花費案例；機票與旅遊保險 |
+| [新手常見錯誤](concepts/common-mistakes.md) | 依交通／付款／住宿分類的實際踩雷經驗，另列事先避開的風險 |
 
 ## 地點（places）
 

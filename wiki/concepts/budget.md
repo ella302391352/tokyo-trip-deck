@@ -33,7 +33,7 @@ updated: 2026-11-11
 - **交通**：計程車收費昂貴，最好避免長途；日本當地交通網路有效率又便宜，幾乎無須搭計程車（[jnto-budget-guide](../sources/jnto-budget-guide.md)）。
 - **住**：搭夜間巴士做長途移動，可以節省一晚的住宿費（[jnto-budget-guide](../sources/jnto-budget-guide.md)）。
 
-## 付款方式：一定要帶現金
+## 付款方式：別只靠信用卡（個人經驗）
 
 - 不是每個地方都能刷卡：新宿藥妝店 Visa 刷不過、只能付現；往成田機場的車票不能刷卡也不能用 Suica 購買（個人經驗，資訊日期 2023-06，[zhgchgli-tokyo-5day-2023](../sources/zhgchgli-tokyo-5day-2023.md)）。
 - 作者建議：日幣「至少留 1 萬上下在身上，避免遇到不能刷卡或不能刷 Visa 卡的狀況」（個人經驗，資訊日期 2023-06，[zhgchgli-tokyo-5day-2023](../sources/zhgchgli-tokyo-5day-2023.md)）。
