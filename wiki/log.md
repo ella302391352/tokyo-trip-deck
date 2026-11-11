@@ -151,3 +151,9 @@
 - 動作：新增 tools/render_deck.py，把逐頁稿原文轉成 HTML（不改文字）
 - 檢查：check.py 0 錯誤；render_check 桌機與手機皆 0 頁溢出（B0 為 4／5 頁）
 - 出錯：無；手機截圖疑似 headless 裁切，待實機確認
+
+## [2026-11-11] G6 報告 | 與 B0 公平比較
+- 動作：同一份審查提示，兩個新 subagent 各審一版（只給該版 deck、wiki/、sources.md）；寫 slides/report.md
+- 檢查：確定問題 A 類（忠實度）B0 4／graph 3；B 類（可讀性）都是 6；不確定 B0 6／graph 13；有問題頁數都是 8 頁
+- 出錯：有 — graph 版 3 個 A 類（漏 ⚠️ 2、漏資訊日期 1）G4 兩輪都沒抓到：G4 只對照卡片，G2 抽卡沒帶出 wiki 的標示（G2）。修正清單待使用者確認
+- 紀錄：slides/report.md
