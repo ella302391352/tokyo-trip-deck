@@ -100,3 +100,8 @@
 - 出錯：有 — 第 1 批 N1 時日期取自網頁讀取工具摘要、未核對原始頁面（N1）。N2 的 AI 審查只對照 raw，raw metadata 錯了就審不出來
 - 處理：使用者同意 → raw 不改；wiki 中 boca 相關 17 處「資訊日期 2022-06」改為「原文無日期」並在來源頁註明更正；AGENTS.md N1 新增「published 必須自己在原始頁面核對，網站頁尾日期不算」
 - 紀錄：reviews/2026-11-11-N1-source-collection-2.md
+
+## [2026-11-11] N1 sources | 第 2 批：boca-japan-entry-main、gotokyo-haneda-airport
+- 動作：使用者核准 E、H1（H2 羽田機場官網電車頁不收，與 H1 重疊）；存入 raw/papers/
+- 檢查：依新規則自行核對日期——E 內文無屬於該頁的日期（頁尾 2022-06-21 為全站日期）→ unknown；H1 內文開頭「Updated: September 1, 2026」→ 2026-09-01。check.py 0 錯誤
+- 出錯：無
