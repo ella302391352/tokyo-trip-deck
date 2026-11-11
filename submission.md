@@ -13,7 +13,7 @@
 
 ## 2. LLM Wiki 成果
 
-- 附件：`LLMWiki_11530621.zip`（完整專案，含 git 紀錄）
+- 附件：`LLMWiki_11530621.zip`（完整專案）
   - 入口：`wiki/index.md`、`wiki/overview.md`
   - 變更紀錄：`wiki/log.md`（append-only，每次 ingest／lint 都有紀錄）
   - 每次檢查的完整紀錄：`reviews/`
