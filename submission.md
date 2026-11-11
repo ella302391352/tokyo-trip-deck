@@ -13,8 +13,8 @@
 
 ## 2. LLM Wiki 成果
 
-- 附件：`LLMWiki_11530621.zip`（完整專案）
-  - 入口：`wiki/index.md`、`wiki/overview.md`
+- GitHub：https://github.com/ella302391352/tokyo-trip-deck （完整專案，也附 zip）
+  - 入口：[wiki/index.md](wiki/index.md)、[wiki/overview.md](wiki/overview.md)
   - 變更紀錄：`wiki/log.md`（append-only，每次 ingest／lint 都有紀錄）
   - 每次檢查的完整紀錄：`reviews/`
 - 規模：wiki 引用 8 篇來源，有來源頁 8 頁、概念頁 6 頁、地點頁 1 頁。raw 共 9 篇，其中 1 篇是被新版取代的舊入境頁；依規則 raw 不能刪，所以保留但不引用。
@@ -28,27 +28,42 @@
 
 ## 4. Loop / Graph 流程
 
+### Wiki 建置 loop
+
+```mermaid
+flowchart TD
+    N1["N1 找來源<br/>published 日期自己核對原始頁面"] -- 使用者核准 --> RAW[("raw/papers/<br/>不可修改")]
+    RAW --> N2["N2 Ingest<br/>先討論 → 使用者同意 → 生成 wiki<br/>只能依據 raw"]
+    N2 --> R2{"AI 忠實度審查<br/>只對照 raw"}
+    R2 -- "有問題：修正後複審，最多 2 輪" --> N2
+    R2 -- 通過 --> WIKI[("wiki/")]
+    WIKI -. "還有下一篇來源" .-> N1
+    WIKI --> N3{"N3 Lint<br/>check.py ＋ AI 跨頁審查"}
+    N3 -- "跨頁矛盾、摘要不同步：使用者確認後修正" --> N2
+    N3 -- "缺資料（待查）" --> N1
+    N3 -- 通過 --> G1
 ```
-【Wiki 建置 loop】
-N1 找來源 ──使用者核准──▶ raw/papers/（不可改）
-   │
-   ▼
-N2 Ingest：先討論 → 使用者同意 → 生成 wiki
-   │   └─▶ AI 忠實度審查（只對照 raw）──有問題──▶ 修正 → 複審（最多 2 輪）
-   ▼
-N3 Lint：check.py（斷鏈、孤兒頁、frontmatter、過期日期）＋ AI 跨頁審查
-   │   └─▶ 只回報，使用者確認後才修正
-   └─缺資料──▶ 回到 N1 補來源
 
-【簡報 graph】
-G1 檢索 ⇄ 覆蓋率關卡（五件事都要有對應頁）
-G2 證據卡（每篇來源一個 subagent，99 條主張）
-G3 大綱 ⇄ 使用者確認
-G4 逐頁稿 ⇄ AI 忠實度關卡（每頁最多 2 輪；缺卡退回 G3）
-G5 渲染（程式轉換、不改文字）⇄ 版面關卡（桌機＋手機溢出檢查；溢出退回 G4）
-G6 報告
+### 簡報 graph
 
-對照組 B0：同一個 wiki，一句話直接生成簡報
+```mermaid
+flowchart TD
+    G1["G1 檢索<br/>只讀 index 與 wiki"] --> C1{"覆蓋率關卡<br/>五件事都有對應頁？"}
+    C1 -- 不足 --> G1
+    C1 -- 通過 --> G2["G2 證據卡<br/>每篇來源一個 subagent，99 條主張"]
+    G2 --> G3["G3 大綱"]
+    G3 --> U{"使用者確認"}
+    U -- 修改 --> G3
+    U -- 核准 --> G4["G4 逐頁稿<br/>只能用大綱列出的卡片"]
+    G4 --> C4{"AI 忠實度關卡<br/>每頁最多 2 輪"}
+    C4 -- "講錯、名詞未解釋" --> G4
+    C4 -- "缺卡" --> G3
+    C4 -- 通過 --> G5["G5 程式渲染<br/>不改文字"]
+    G5 --> C5{"版面關卡<br/>桌機＋手機溢出"}
+    C5 -- "溢出：縮短" --> G4
+    C5 -- 通過 --> G6["G6 報告<br/>與 B0 公平比較"]
+    G6 -- "審查發現問題：使用者確認後修正" --> G3
+    B0["對照組 B0<br/>一句話直接生成"] -. 同一份審查提示 .-> G6
 ```
 
 - 每一關都規定「能看什麼／不能做什麼」。例如 G4 只能看證據卡，G5 不能改文字。
@@ -110,3 +125,15 @@ G6 報告
   - 原因：G4 只對照證據卡；G2 抽卡時沒把 wiki 上的 ⚠️、資訊日期帶進卡片，後面的關卡就看不到。
   - 這和 N1 日期錯誤、N2 審查審不出來是同一種模式：每一關只對照上一關的產出，上一關漏掉的，後面都審不出來。
   - 下一步調整：卡片要帶出 wiki 原句的標示，並用 check.py 比對卡片與 wiki 的標示是否一致；最後一關也要回頭對照 wiki，而不是只對照上一關。
+
+## 7. 檔案一覽
+
+| 路徑 | 內容 |
+|---|---|
+| [AGENTS.md](AGENTS.md) | Wiki 規則（schema） |
+| [.agents/workflows/topic-slides.md](.agents/workflows/topic-slides.md) | 簡報 graph 規則：每關能看什麼、不能做什麼、退回路線 |
+| [raw/papers/](raw/papers/) | 來源原文（不可修改） |
+| [wiki/](wiki/) | LLM Wiki；入口 [index.md](wiki/index.md)、變更紀錄 [log.md](wiki/log.md) |
+| [reviews/](reviews/) | 每次 ingest、lint、簡報關卡的檢查紀錄 |
+| [slides/](slides/) | 簡報：sources、cards、outline、drafts、[deck.html](slides/deck.html)、[report.md](slides/report.md)；對照組在 baseline/ |
+| [tools/](tools/) | check.py（結構檢查）、render_deck.py（渲染）、render_check.py（版面檢查）、fetch_raw.py（抓原文） |
