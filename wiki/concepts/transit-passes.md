@@ -1,7 +1,7 @@
 ---
 type: concept
 sources: [jnto-useful-tickets-tokyo, gotokyo-5day-itinerary, zhgchgli-tokyo-5day-2023, jnto-budget-guide]
-updated: 2026-11-10
+updated: 2026-11-11
 ---
 # 交通票券怎麼選
 

@@ -1,7 +1,7 @@
 ---
 type: source
 sources: [gotokyo-5day-itinerary]
-updated: 2026-11-10
+updated: 2026-11-11
 raw: ../../raw/papers/gotokyo-5day-itinerary.md
 url: https://www.gotokyo.org/tc/story/walks-and-tours/tokyo-itinerary/index.html
 source_date: 2026-03-05

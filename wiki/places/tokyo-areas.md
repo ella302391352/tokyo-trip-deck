@@ -1,7 +1,7 @@
 ---
 type: place
 sources: [gotokyo-5day-itinerary]
-updated: 2026-11-10
+updated: 2026-11-11
 ---
 # 東京區域與景點
 
