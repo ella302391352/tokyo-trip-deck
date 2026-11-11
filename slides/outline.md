@@ -16,7 +16,7 @@
 目的：用拉麵、早餐、青年旅社等單價建立物價感；教觀眾用單價自己估算（整理者推論），並提醒原文無日期。
 
 ## 04 預算②：省錢方法與付款方式
-卡片：jnto-budget-guide#C5, jnto-budget-guide#C6, jnto-budget-guide#C11, zhgchgli-tokyo-5day-2023#C3, zhgchgli-tokyo-5day-2023#C4, gotokyo-haneda-airport#C8
+卡片：jnto-budget-guide#C5, jnto-budget-guide#C6, jnto-budget-guide#C11, zhgchgli-tokyo-5day-2023#C3, zhgchgli-tokyo-5day-2023#C4, zhgchgli-tokyo-5day-2023#C6, gotokyo-haneda-airport#C8
 目的：吃與交通的省錢方法；別只靠信用卡（個人經驗）；到機場哪裡領現金。
 
 ## 05 入境①：台灣護照免簽條件
@@ -56,5 +56,5 @@
 目的：GO TOKYO 五天分組表當範例；3 天怎麼挑（附原文矛盾）；熱門景點先買票（個人經驗）。
 
 ## 14 新手常見錯誤＋行前檢查清單
-卡片：zhgchgli-tokyo-5day-2023#C3, zhgchgli-tokyo-5day-2023#C5, zhgchgli-tokyo-5day-2023#C9, zhgchgli-tokyo-5day-2023#C11, funjapan-visit-japan-web#C8
+卡片：zhgchgli-tokyo-5day-2023#C3, zhgchgli-tokyo-5day-2023#C6, zhgchgli-tokyo-5day-2023#C5, zhgchgli-tokyo-5day-2023#C9, zhgchgli-tokyo-5day-2023#C11, funjapan-visit-japan-web#C8
 目的：四個真實踩雷（個人經驗）；最後一張可帶走的行前清單（整理者推論，彙整自前面各頁）。
