@@ -1,0 +1,16 @@
+---
+source: jnto-useful-tickets-tokyo
+---
+- C1：選票的關鍵是你會搭哪些路線：飯店靠近 JR 車站，多半會搭 JR（如山手線）；飯店靠近地鐵站，則較適合買東京 Metro 地鐵票，或 JR／地鐵的組合票。〔wiki: concepts/transit-passes.md concepts/accommodation-area.md sources/jnto-useful-tickets-tokyo.md〕
+- C2：住宿地點會影響要買哪種票，行程 → 住宿 → 交通三步是連動的（整理者推論）。〔wiki: overview.md concepts/transit-passes.md〕
+- C3：Suica／PASMO 是儲值型 IC 卡：進出站時在閘門感應，出站時自動計算車資，可隨時加值，最多儲值 20,000 円（資訊日期 2024-12）。〔wiki: concepts/transit-passes.md sources/jnto-useful-tickets-tokyo.md〕
+- C4：Suica／PASMO 可搭 JR、地鐵、公車與私鐵，也通用於日本多數交通網；Suica（JR 東日本發行）與 PASMO（私鐵公司發行）可互換使用（資訊日期 2024-12）。〔wiki: concepts/transit-passes.md sources/jnto-useful-tickets-tokyo.md〕
+- C5：IC 卡購買時含押金 500 円；退卡時退還押金，但扣手續費 210 円；Suica 2,000 円起（押金 500＋儲值 1,500），PASMO 1,000 円起（押金 500＋儲值 500）（資訊日期 2024-12）。〔wiki: concepts/transit-passes.md〕
+- C6：一日券依可搭路線分類：都區內通票（只限 JR）760 円；Tokyo Metro 24 小時券 600 円（首次使用起算 24 小時，可預購，購買後 6 個月內使用）；共通一日券（Metro＋都營）900 円（資訊日期 2024-12）。〔wiki: concepts/transit-passes.md〕
+- C7：東京一日券（Tokyo Free Ticket，JR＋地鐵＋公車＋都電）1,600 円，範圍最廣、最貴；百合海鷗號一日券 820 円，只限百合海鷗號（資訊日期 2024-12）。〔wiki: concepts/transit-passes.md〕
+- C8：Tokyo Subway Ticket（Metro＋都營）24h 800／48h 1,200／72h 1,500 円，首次使用起算；限外國觀光客或東京等 8 都縣以外居民（資訊日期 2024-12）。〔wiki: concepts/transit-passes.md sources/jnto-useful-tickets-tokyo.md〕
+- C9：⚠️ 可能過期：Tokyo Subway Ticket 價格可能已調整，但目前沒有可存成 raw 的官方來源可證實（待查）。〔wiki: concepts/transit-passes.md sources/jnto-useful-tickets-tokyo.md〕
+- C10：旅遊價格資訊會過期：交通票價的資料基準日是 2024-12，已超過一年，最新價格（待查）。〔wiki: overview.md〕
+- C11：N'EX 東京來回票：往返成田機場與品川、澀谷、新宿、池袋、大宮、橫濱、大船等主要車站，免轉乘；14 天內有效，成人 5,000 円；限外國旅客（查驗護照），只在成田機場第 1、2 航廈 JR 售票處及 JR 東日本旅遊服務中心販售（資訊日期 2024-12）。〔wiki: concepts/transit-passes.md〕
+- C12：搭上 N'EX 後可轉乘指定東京區域內的其他 JR 東日本列車，但出閘門後不能再次進站（資訊日期 2024-12）。〔wiki: concepts/transit-passes.md〕
+- C13：利木津巴士來回優惠券：給抵達成田機場旅客的優惠券，成人 6,000 円，在成田機場利木津巴士售票櫃台購買（資訊日期 2024-12）。〔wiki: concepts/transit-passes.md〕

@@ -1,0 +1,11 @@
+---
+source: gotokyo-haneda-airport
+---
+- C1：羽田機場距東京市中心約 15 公里，「通常在1小時內就能抵達東京的大半鬧區」（資訊日期 2026-09）。〔wiki: concepts/transit-passes.md sources/gotokyo-haneda-airport.md〕
+- C2：京急線第 3 航廈至品川，快特 11 分鐘；特急、急行約 20 分鐘；品川至東京約 13 分鐘（JR 山手線）（資訊日期 2026-09）。〔wiki: concepts/transit-passes.md sources/gotokyo-haneda-airport.md〕
+- C3：東京單軌電車第 3 航廈至濱松町最短 13 分鐘；濱松町至東京約 7 分鐘（JR 山手線）（資訊日期 2026-09）。〔wiki: concepts/transit-passes.md sources/gotokyo-haneda-airport.md〕
+- C4：利木津巴士至東京站、新宿站各約 55 分鐘；京濱急行巴士至東京站約 55 分鐘、澀谷站約 60 分鐘（資訊日期 2026-09）。〔wiki: concepts/transit-passes.md sources/gotokyo-haneda-airport.md〕
+- C5：巴士票在抵達後於售票機購買；第 3 航廈有多語言工作人員的巴士車票服務台。〔wiki: concepts/transit-passes.md sources/gotokyo-haneda-airport.md〕
+- C6：羽田離市中心不遠，計程車「車資並不會過於昂貴」；定額制計程車採預約制，22:00 至隔日 5:00 加價，走高速公路另收過路費（資訊日期 2026-09）。〔wiki: concepts/transit-passes.md sources/gotokyo-haneda-airport.md〕
+- C7：機場便利商店、自動販賣機等處可租 Wi-Fi 路由器、買預付 SIM 卡；原文「建議事先預約好Wi-Fi分享器」（資訊日期 2026-09）。〔wiki: concepts/transit-passes.md sources/gotokyo-haneda-airport.md〕
+- C8：羽田機場有日本主要銀行的自動櫃員機，「其中又以Seven銀行的自動櫃員機適用最多家國外提款卡」（資訊日期 2026-09）。〔wiki: concepts/budget.md sources/gotokyo-haneda-airport.md〕

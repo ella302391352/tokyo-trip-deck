@@ -1,0 +1,15 @@
+---
+source: zhgchgli-tokyo-5day-2023
+---
+- C1：（個人經驗，資訊日期 2023-06）三人在出發前兩週先買好東京迪士尼海洋、橫濱鋼彈、SHIBUYA SKY 的票；作者表示「以上沒有先買，到現場都是沒有空的位子可以進去的」。〔wiki: concepts/itinerary-planning.md concepts/common-mistakes.md overview.md sources/zhgchgli-tokyo-5day-2023.md〕
+- C2：（個人經驗，資訊日期 2023-06）作者帶 60,000 円現金，表示最後想把現金花光。〔wiki: concepts/budget.md sources/zhgchgli-tokyo-5day-2023.md〕
+- C3：（個人經驗，資訊日期 2023-06）新宿藥妝店 Visa 刷不過、只能付現（10,000 多円）；往成田機場的車票不能刷卡也不能用 Suica 購買，三人差點湊不出車錢。〔wiki: concepts/budget.md concepts/common-mistakes.md sources/zhgchgli-tokyo-5day-2023.md〕
+- C4：（個人經驗，資訊日期 2023-06）作者建議日幣「至少留 1 萬上下在身上，避免遇到不能刷卡或不能刷 Visa 卡的狀況」。〔wiki: concepts/budget.md concepts/common-mistakes.md sources/zhgchgli-tokyo-5day-2023.md〕
+- C5：（個人經驗，資訊日期 2023-06）去程直接用西瓜卡刷進站要搭成田特快，結果整班都是指定席，只能出站買票再進站；作者補充「好像」可以在站內月台機器買票，未確認。〔wiki: concepts/transit-passes.md concepts/common-mistakes.md sources/zhgchgli-tokyo-5day-2023.md〕
+- C6：（個人經驗，資訊日期 2023-06）回程從新橋搭都營淺草線機場快線往成田，約 1 小時 15 分，車票不能刷卡、不能用 Suica 購買，只能付現。⚠️ 矛盾（原文內部）：前言說不能刷卡的是在「東京車站」買往成田的車票，與「新橋」不同，兩種說法並存。〔wiki: concepts/transit-passes.md sources/zhgchgli-tokyo-5day-2023.md〕
+- C7：（個人經驗，資訊日期 2023-06）iPhone 可直接使用西瓜卡；同行的 Android 使用者只能在成田機場購買 Welcome Suica（限時西瓜卡）。〔wiki: concepts/transit-passes.md sources/zhgchgli-tokyo-5day-2023.md〕
+- C8：（個人經驗，資訊日期 2023-06）5 天只玩東京，所以找一間住 4 晚不用換的飯店。〔wiki: concepts/accommodation-area.md sources/zhgchgli-tokyo-5day-2023.md〕
+- C9：（個人經驗，資訊日期 2023-06）因為訂房訂得晚，東橫 Inn、APA 等連鎖商旅都沒空房，改在訂房網站找「東京地圖靠近中間又有電車地鐵站」的飯店。〔wiki: concepts/accommodation-area.md concepts/common-mistakes.md sources/zhgchgli-tokyo-5day-2023.md〕
+- C10：（個人經驗，資訊日期 2023-06）最後住汐留：出站就是汐留站，可直達台場或新宿，走 10 分鐘到新橋站；3 人 4 晚共 NT$23,894。〔wiki: concepts/accommodation-area.md concepts/budget.md sources/zhgchgli-tokyo-5day-2023.md〕
+- C11：（個人經驗，資訊日期 2023-06）信用卡刷機票會附送旅遊保險；作者犯的錯是一人刷三人的機票，應各自用自己的信用卡刷機票。〔wiki: concepts/budget.md concepts/common-mistakes.md sources/zhgchgli-tokyo-5day-2023.md〕
+- C12：（個人經驗，資訊日期 2023-06）只排 5 天，所以選早去晚回的航班。〔wiki: sources/zhgchgli-tokyo-5day-2023.md〕

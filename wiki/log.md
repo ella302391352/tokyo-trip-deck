@@ -128,3 +128,16 @@
 - 動作：只讀 index 與 wiki 頁，產出 slides/sources.md（15 頁）
 - 檢查：相關頁 ≥3、五個規劃步驟皆有對應頁 → 通過
 - 出錯：無
+## [2026-11-11] B0 baseline | 一句話生成對照組
+- 動作：新 subagent 一句話生成 slides/baseline/deck.html（16 頁）
+- 檢查：check.py 17 錯誤（無 data-wiki 出處、超過 15 頁）；render_check 桌機 4 頁、手機 5 頁溢出
+- 紀錄：reviews/2026-11-11-B0-baseline.md
+
+## [2026-11-11] G2 證據卡 | 8 張（平行）
+- 動作：8 個獨立 subagent，每個只看一篇來源的 wiki 來源頁與引用它的句子；共 99 條主張
+- 檢查：check.py 0 錯誤（格式、wiki 路徑皆有效）；budget 卡片 subagent 自行回報 C13 物價表只出現在概念頁表格、來源頁未列，支撐較弱
+- 出錯：無
+
+## [2026-11-11] G3 大綱 | 14 頁，待使用者確認
+- 動作：依卡片寫 slides/outline.md，8 篇來源全部用到
+- 檢查：check.py 0 錯誤（卡片引用皆存在）

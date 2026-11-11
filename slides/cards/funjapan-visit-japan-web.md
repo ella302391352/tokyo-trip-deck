@@ -1,0 +1,14 @@
+---
+source: funjapan-visit-japan-web
+---
+- C1：Visit Japan Web 是日本政府提供的免費網上服務，可在出發前預先登錄檢疫、入境審查、海關申報等資訊；資訊日期 2026-08。〔wiki: concepts/entry-requirements.md sources/funjapan-visit-japan-web.md〕
+- C2：Visit Japan Web 並非強制使用；不使用的外國旅客仍可填紙本「外國人入境記錄卡」與「攜帶品・另外寄送的物品申告書」（資訊日期 2026-08）。〔wiki: concepts/entry-requirements.md sources/funjapan-visit-japan-web.md〕
+- C3：事先準備護照、機票（可確認班機號碼）、在日本的住宿資訊（郵遞區號、地址、設施名稱、電話）、電子郵件信箱（資訊日期 2026-08）。〔wiki: concepts/entry-requirements.md sources/funjapan-visit-japan-web.md〕
+- C4：帳號可提前建立，建議航班與住宿確定後再登錄行程，出發前完成；之後有變動「請務必在入境前更新資料」（資訊日期 2026-08）。〔wiki: concepts/entry-requirements.md sources/funjapan-visit-japan-web.md〕
+- C5：註冊步驟為 ① 用電子郵件建立帳號並認證 ② 登錄本人護照資料（相機掃描或手動輸入）與同行家屬 ③ 登錄入境行程（抵達日、出發地、航空公司、航班號碼；轉機填抵達日本的最終航班）④ 以英文（羅馬拼音）填寫住宿資訊 ⑤ 填寫檢疫、入境審查與海關申報 ⑥ 取得 QR Code（資訊日期 2026-08）。〔wiki: sources/funjapan-visit-japan-web.md〕
+- C6：住宿資訊需以英文（羅馬拼音）填寫。〔wiki: concepts/entry-requirements.md sources/funjapan-visit-japan-web.md〕
+- C7：入境審查與海關申報合併為同一組 QR Code，可截圖保存（改資料後要重存），也可設定離線使用（資訊日期 2026-08）。〔wiki: concepts/entry-requirements.md sources/funjapan-visit-japan-web.md〕
+- C8：QR Code「無法取代護照」，護照正本一定要帶（資訊日期 2026-08）。〔wiki: concepts/entry-requirements.md sources/funjapan-visit-japan-web.md〕
+- C9：小心假網站：Visit Japan Web 完全免費，請從官方登入頁面 https://www.vjw.digital.go.jp/ 使用，遇到要求輸入信用卡資訊的網站或 APP 請勿填寫（資訊日期 2026-08）。〔wiki: concepts/entry-requirements.md sources/funjapan-visit-japan-web.md〕
+- C10：同行家人最多可由代表者帳號登錄 10 位，每人各自一組 QR Code，在機場依序出示（資訊日期 2026-08）。〔wiki: concepts/entry-requirements.md sources/funjapan-visit-japan-web.md〕
+- C11：文章表示「日本政府已宣布，紙本文件預計將於2030年前全面廢止」（未附官方出處；資訊日期 2026-08）。〔wiki: sources/funjapan-visit-japan-web.md〕

@@ -1,0 +1,16 @@
+---
+source: gotokyo-accommodations
+---
+- C1：預算有限時，東京有許多青年旅館或家庭旅館，「均兼具安全與舒適度」；部分新開的青年旅館獲設計獎項。〔wiki: concepts/accommodation-area.md sources/gotokyo-accommodations.md〕
+- C2：膠囊旅館部分限女性使用。〔wiki: concepts/accommodation-area.md sources/gotokyo-accommodations.md〕
+- C3：需要更多隱私可選中級飯店與商務飯店，提供方便的服務與所有基本備品。〔wiki: concepts/accommodation-area.md sources/gotokyo-accommodations.md〕
+- C4：都心的高級飯店提供五星級服務，東京灣旁的飯店可欣賞水岸景色；想嘗試不同選擇可考慮東京郊外的小木屋或豪華露營。〔wiki: concepts/accommodation-area.md sources/gotokyo-accommodations.md〕
+- C5：東京的高級飯店「大多集中於皇居、日本橋、六本木及淺草區域附近」，前往主要觀光景點及購物都方便。〔wiki: concepts/accommodation-area.md sources/gotokyo-accommodations.md〕
+- C6：⚠️ 說法不一致（同一網站兩頁）：本頁說高級飯店大多集中於「皇居、日本橋、六本木及淺草」附近，與另一頁「東京站周邊、新宿及六本木等都心與灣岸地區」只有六本木重疊，兩說並列保留。〔wiki: concepts/accommodation-area.md sources/gotokyo-accommodations.md〕
+- C7：民宿是利用公寓單一房間或獨棟住宅經營的住宿設施；也有未取得必要許可或未辦理申報而非法經營的民宿。〔wiki: concepts/accommodation-area.md sources/gotokyo-accommodations.md〕
+- C8：「即使設施看起來很乾淨，或出現在知名預訂網站上，非法民宿仍存在風險」。〔wiki: concepts/accommodation-area.md sources/gotokyo-accommodations.md〕
+- C9：非法民宿可能的風險：臨時取消、消防設備不足、其他安全與衛生問題、求助無門，甚至與當地居民發生糾紛。〔wiki: concepts/accommodation-area.md sources/gotokyo-accommodations.md〕
+- C10：訂民宿前（原文無日期）確認是否事先明確告知取消政策等使用條件及房屋守則。〔wiki: concepts/accommodation-area.md sources/gotokyo-accommodations.md〕
+- C11：訂民宿前（原文無日期）確認是否標示申報編號或許可編號：東京都內已完成申報或取得許可的民宿，會標示以「M13」開頭的申報編號（例如：第M13000000號），或由數字與漢字、平假名等文字組合的許可編號（例如：99西保生き第999號）。〔wiki: concepts/accommodation-area.md sources/gotokyo-accommodations.md〕
+- C12：網站上未註明申報／許可編號時，請直接向該設施諮詢。〔wiki: concepts/accommodation-area.md sources/gotokyo-accommodations.md〕
+- C13：在東京，若每人每晚的住宿費用達 10,000 日圓以上，可能需繳納住宿稅（原文無日期）；稅收用於推動東京發展為具魅力的國際都市及振興觀光相關事業。〔wiki: concepts/accommodation-area.md sources/gotokyo-accommodations.md〕

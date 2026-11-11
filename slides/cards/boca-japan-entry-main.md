@@ -1,0 +1,17 @@
+---
+source: boca-japan-entry-main
+---
+- C1：在台灣設籍的台灣居民，以短期停留為目的（就職或就業者等除外），可免簽證入境日本停留 90 天（自 2005-09-26 起）（原文無日期）〔wiki: concepts/entry-requirements.md sources/boca-japan-entry-main.md〕
+- C2：免簽適用於觀光、療養、運動、拜訪親友、參觀、參加講習會或出席聚會、業務連繫等；為就業或有報酬的活動入境，仍需事前取得簽證（原文無日期）〔wiki: concepts/entry-requirements.md sources/boca-japan-entry-main.md〕
+- C3：入境時須自行舉證三項條件：持有效護照且在有效期內返回（原文註明「並未規定效期需大於6個月」）、入境目的與實際從事的活動一致、不曾違反日本入管法第 5 條第 1 項各號規定（原文無日期）〔wiki: concepts/entry-requirements.md sources/boca-japan-entry-main.md〕
+- C4：原文提醒：「符合上述條件者也並不表示一定可入境日本」〔wiki: concepts/entry-requirements.md sources/boca-japan-entry-main.md〕
+- C5：外交部請自助旅行者（非團客）出發前「請務必」備妥旅遊計畫，以便入國查驗時使用，包括來回機票、日程表、住宿（如訂房記錄）、財力證明（如信用卡），並確實填寫入出境表格（原文無日期）〔wiki: concepts/entry-requirements.md sources/boca-japan-entry-main.md〕
+- C6：遇審查官詢問「請務必耐心據實回答」，避免態度不佳或刻意迴避；赴日目的或住宿地點交代不清、或缺少足夠在日生活的財力證明，仍有遭拒入境之虞（原文無日期）〔wiki: concepts/entry-requirements.md sources/boca-japan-entry-main.md〕
+- C7：出入日本頻繁或單次停留過久而遭拒入境的案例「時有所聞」（原文無日期）〔wiki: concepts/entry-requirements.md sources/boca-japan-entry-main.md〕
+- C8：外國人入境須實施指紋採集及顏面攝影（2007-11-20 起；特別永住者、不滿 16 歲者等除外）〔wiki: concepts/entry-requirements.md sources/boca-japan-entry-main.md〕
+- C9：在機上或機場管制區內遺失護照，入境時無法出示者將被遣送回台（原文無日期）〔wiki: concepts/entry-requirements.md sources/boca-japan-entry-main.md〕
+- C10：免稅品及違禁品等規定，以日本海關網頁為準；攜帶物品超過免稅範圍（20 萬日圓），須至海關課稅櫃台繳稅（原文無日期）〔wiki: concepts/entry-requirements.md sources/boca-japan-entry-main.md〕
+- C11：現金、旅行支票及有價證券總值 100 萬日圓以上，或黃金（純度 90% 以上）1 公斤以上，須另外填報「支付方式等攜帶進口申告書」；外交部提醒近來有多起國人攜帶數十至數百公克黃金、誤以為無須申報而遭扣押的案例（原文無日期）〔wiki: concepts/entry-requirements.md sources/boca-japan-entry-main.md〕
+- C12：禁止攜帶毒品、管制類藥物、槍砲彈藥刀械、偽造貨幣、仿冒或盜版物品、保育類野生動植物及其製品等（原文無日期）〔wiki: concepts/entry-requirements.md sources/boca-japan-entry-main.md〕
+- C13：畜產品：「在任何情況下(含個人消費或伴手禮)」違法攜入，將重罰 300 萬日幣以下罰金或 3 年以下徒刑（原文無日期）〔wiki: concepts/entry-requirements.md sources/boca-japan-entry-main.md〕
+- C14：外交部頁面也註明「入境日本前可詳閱日本數位廳『Visit Japan Web』網頁」〔wiki: concepts/entry-requirements.md sources/boca-japan-entry-main.md〕

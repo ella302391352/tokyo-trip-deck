@@ -1,0 +1,18 @@
+---
+source: gotokyo-5day-itinerary
+---
+- C1：排程核心原則是「將相近的目的地依序分為一組」、排在同一天；原文說不論想在東京待三天、四天、七天甚至更久都能照此安排（GO TOKYO 官方觀光網站，原文日期 2026-03-05）〔wiki: concepts/itinerary-planning.md sources/gotokyo-5day-itinerary.md〕
+- C2：GO TOKYO 認為想悠閒遊覽東京各大景點「至少需要五天」〔wiki: concepts/itinerary-planning.md sources/gotokyo-5day-itinerary.md〕
+- C3：五天分組範例：第 1 天東部（淺草寺、teamLab Planets（豐洲）、東京晴空塔）；第 2 天北部（池袋、上野恩賜公園）；第 3 天中心部（築地場外市場、皇居、秋葉原、銀座）；第 4 天西部（原宿、明治神宮、新宿）；第 5 天西部、南部（澀谷、中目黑、六本木）〔wiki: concepts/itinerary-planning.md places/tokyo-areas.md sources/gotokyo-5day-itinerary.md〕
+- C4：天數不夠時，從分好組的天數中挑選，例如只有 3 天就選第 1、3、4 天〔wiki: concepts/itinerary-planning.md sources/gotokyo-5day-itinerary.md〕
+- C5：⚠️ 矛盾（原文內部）：原文稱只待 3 天選第 1、3、4 天可涵蓋「東部、中部及南部」，但同篇把第 4 天（原宿、明治神宮、新宿）標為「西部」；「南部」只出現在第 5 天標題「西部、南部」。整理時兩種說法並列保留，不自行裁決〔wiki: concepts/itinerary-planning.md places/tokyo-areas.md sources/gotokyo-5day-itinerary.md〕
+- C6：⚠️ 原文將第 5 天標為「西部、南部」，但沒有說明澀谷、中目黑、六本木各屬哪一區〔wiki: places/tokyo-areas.md〕
+- C7：同區景點的組合依據舉例：淺草寺（淺草地標、東京最古老寺廟）、東京晴空塔（高 634 公尺，350 與 450 公尺處有展望台）同屬東部；原宿、明治神宮（與原宿站相鄰）、新宿同排第 4 天；中目黑「步行可到代官山」〔wiki: places/tokyo-areas.md〕
+- C8：築地場外市場「一早就能吃海鮮與壽司」，皇居「距東京站步行約 10 分鐘」，這是原文唯一提到的景點間移動時間；原文幾乎沒有景點之間的交通方式與移動時間〔wiki: places/tokyo-areas.md sources/gotokyo-5day-itinerary.md〕
+- C9：住宿類型：奢華飯店與高級日式旅館、方便行動的商務旅館或膠囊旅館、適合長住的青年旅舍及家庭旅館；可依旅遊目的與區域挑選〔wiki: concepts/accommodation-area.md sources/gotokyo-5day-itinerary.md〕
+- C10：各區住宿特色：東京站周邊、新宿、六本木等都心與灣岸地區是高級飯店聚集地；都內其他主要車站站前有許多價格較實惠的商務旅館；東京東部的下町地區有越來越多具設計感的家庭旅館及青年旅舍，推薦給樂於社交的旅人〔wiki: concepts/accommodation-area.md sources/gotokyo-5day-itinerary.md〕
+- C11：原文建議「根據旅行的目的地來選擇住宿區域」，也就是先排好行程、再看住哪裡方便（整理者推論）〔wiki: concepts/accommodation-area.md overview.md sources/gotokyo-5day-itinerary.md〕
+- C12：⚠️ 矛盾（同一網站兩頁）：本篇說高級飯店在「東京站周邊、新宿及六本木等都心與灣岸地區」；同網站住宿頁說大多集中於「皇居、日本橋、六本木及淺草」附近，兩者只有六本木重疊，並列保留〔wiki: sources/gotokyo-5day-itinerary.md concepts/accommodation-area.md〕
+- C13：行前建議：事先調查交通資訊、先了解電車及地鐵的優惠票券，並提前認識日本文化、禮節、氣候〔wiki: concepts/transit-passes.md sources/gotokyo-5day-itinerary.md〕
+- C14：這篇為官方觀光推廣文，偏重景點介紹，幾乎沒有移動時間與費用等實務資訊；區域間移動方式與時間、門票與是否需預約、每日花費皆待查〔wiki: overview.md sources/gotokyo-5day-itinerary.md concepts/itinerary-planning.md〕
+- C15：時效資訊：「森大廈數字藝術美術館：EPSON teamLab無界」已於 2024 年 2 月在麻布台 Hills 開幕（資訊日期 2026-03）〔wiki: sources/gotokyo-5day-itinerary.md〕

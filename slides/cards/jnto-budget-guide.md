@@ -1,0 +1,16 @@
+---
+source: jnto-budget-guide
+---
+- C1：JNTO 表示日本旅遊不一定很貴：「事先完整規劃，即使是最在意預算的旅客，也能負擔的起任何日本旅遊」，日本有許多便宜的住宿、交通券、觀光折扣可選。〔wiki: concepts/budget.md sources/jnto-budget-guide.md〕
+- C2：住宿價格（每晚，全日本一般價格，非東京專屬；原文無日期）：民宿（單人房）約 2,000 日圓起，青年旅社約 3,000 日圓，便宜旅館（單人房）約 6,000 日圓起。〔wiki: concepts/accommodation-area.md sources/jnto-budget-guide.md〕
+- C3：住宿價格（每晚，全日本一般價格，非東京專屬；原文無日期）：中價位旅館（雙人房）約 10,000 日圓起，日式旅館（含兩餐）約每人每晚 10,000 日圓起。〔wiki: concepts/accommodation-area.md sources/jnto-budget-guide.md〕
+- C4：住宿價格（每晚，全日本一般價格，非東京專屬；原文無日期）：四星級旅館（雙人房）約 30,000 日圓起，五星級旅館（雙人房）約 40,000 日圓起。〔wiki: concepts/accommodation-area.md sources/jnto-budget-guide.md〕
+- C5：吃的省錢方法：熱門觀光區的餐廳通常較貴，「隨著當地人走」通常價格便宜；避開門外未標明價格的餐廳。〔wiki: concepts/budget.md sources/jnto-budget-guide.md〕
+- C6：居酒屋、食堂、迴轉壽司、御好燒等較平價。〔wiki: concepts/budget.md sources/jnto-budget-guide.md〕
+- C7：東京 Metro 24 小時車票 600 日圓（原文無日期）。〔wiki: concepts/budget.md concepts/transit-passes.md sources/jnto-budget-guide.md〕
+- C8：Metro 與都營地鐵通用一日通票 900 日圓，都營一日通票 700 日圓（原文無日期）。〔wiki: concepts/transit-passes.md sources/jnto-budget-guide.md〕
+- C9：利木津巴士單程，成田機場至東京都心 3,200 日圓（原文無日期）。〔wiki: concepts/transit-passes.md sources/jnto-budget-guide.md〕
+- C10：東京計程車基本車資 500 日圓起；巴士基本票價 210 日圓起（巴士原文未指明地區）（原文無日期）。〔wiki: concepts/budget.md concepts/transit-passes.md sources/jnto-budget-guide.md〕
+- C11：計程車適合行李多時的市區短程，但收費昂貴，最好避免長途；日本當地交通網路有效率又便宜，幾乎無須搭計程車。〔wiki: concepts/budget.md concepts/transit-passes.md sources/jnto-budget-guide.md〕
+- C12：搭夜間巴士做長途移動，可以節省一晚的住宿費。〔wiki: concepts/budget.md sources/jnto-budget-guide.md〕
+- C13：一般物價參考（官方，原文無日期）：一碗拉麵約 650 日圓起，咖啡店的早餐約 400–700 日圓，一杯咖啡 100–600 日圓，飲料約 130 日圓，半公升礦泉水約 110 日圓。〔wiki: concepts/budget.md sources/jnto-budget-guide.md〕
