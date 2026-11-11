@@ -21,7 +21,7 @@
 
 ## 3. 教學 HTML 簡報連結
 
-- https://claude.ai/artifact/EFrUzfEnUBc9YALD6uA1nT （14 頁）
+- https://ella302391352.github.io/tokyo-trip-deck/ （14 頁）
 - 操作：方向鍵、右下按鈕或手機左右滑動
 - 原始檔：`slides/deck.html`
 - 每頁頁尾都列出依據的 wiki 頁；每個要點後面標有證據卡編號
