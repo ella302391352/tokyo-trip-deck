@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>第一次自由行規劃</title>
+<style>
+:root { --bg:#fbfaf7; --fg:#1f2328; --muted:#6b7280; --accent:#c2410c; --line:#e5e1d8; --cite:#8a6d3b; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#16181d; --fg:#e8e6e1; --muted:#9aa0a8; --accent:#fb923c; --line:#2c2f36; --cite:#d4b483; } }
+:root[data-theme="dark"] { --bg:#16181d; --fg:#e8e6e1; --muted:#9aa0a8; --accent:#fb923c; --line:#2c2f36; --cite:#d4b483; }
+* { box-sizing: border-box; }
+html, body { margin:0; height:100%; background:var(--bg); color:var(--fg);
+  font-family: "Noto Sans TC","Microsoft JhengHei","PingFang TC",sans-serif; }
+section { display:none; height:100vh; width:100%; overflow:hidden; flex-direction:column;
+  padding: clamp(16px,4vh,48px) clamp(16px,6vw,96px) 0; }
+section.active { display:flex; }
+h2 { margin:0 0 .6em; font-size:clamp(22px,3.6vw,40px); color:var(--accent); line-height:1.25;
+  border-bottom:2px solid var(--line); padding-bottom:.3em; }
+ul { margin:0; padding-left:1.2em; flex:1; font-size:clamp(15px,2.1vw,23px); line-height:1.5; }
+li { margin:.35em 0; }
+p { font-size:clamp(15px,2.1vw,23px); line-height:1.5; margin:.3em 0; }
+.cite { font-size:.62em; color:var(--cite); margin-left:.3em; white-space:nowrap; }
+footer { display:flex; justify-content:space-between; gap:1em; font-size:clamp(10px,1.1vw,13px);
+  color:var(--muted); border-top:1px solid var(--line); padding:.6em 0 1em; }
+footer span:first-child { overflow-wrap:anywhere; }
+section.cover { justify-content:center; }
+section.cover h2 { font-size:clamp(28px,5.2vw,60px); border:none; }
+section.cover ul { flex:0; }
+.nav { position:fixed; right:16px; bottom:48px; display:flex; gap:8px; }
+.nav button { font-size:18px; width:40px; height:40px; border-radius:50%; border:1px solid var(--line);
+  background:var(--bg); color:var(--fg); cursor:pointer; }
+</style>
+</head>
+<body>
+<section class="cover" data-draft="01" data-wiki="concepts/itinerary-planning.md sources/gotokyo-5day-itinerary.md">
+  <h2>第一次自由行怎麼規劃？——以東京為例</h2>
+  <ul>
+    <li>目標：看完這份簡報，能自己規劃第一次的東京自由行（整理者推論）</li>
+    <li>內容只來自 8 篇來源整理成的 wiki，每頁下方列出出處（整理者推論）</li>
+    <li>價格標示：「資訊日期」是資料的時間；「原文無日期」表示來源沒寫日期；價格都可能變動（整理者推論）</li>
+  </ul>
+  <footer><span>出處（wiki）：concepts/itinerary-planning.md、sources/gotokyo-5day-itinerary.md</span><span class="pg">1 / 14</span></footer>
+</section>
+<section data-draft="02" data-wiki="concepts/accommodation-area.md overview.md sources/gotokyo-5day-itinerary.md concepts/transit-passes.md sources/jnto-useful-tickets-tokyo.md">
+  <h2>規劃自由行的五件事，而且彼此連動</h2>
+  <ul>
+    <li>自由行要規劃五件事：預算、入境、交通、住宿、行程（整理者推論）</li>
+    <li>住宿看行程：GO TOKYO（東京觀光財團的官方觀光網站）建議「根據旅行的目的地來選擇住宿區域」<span class="cite">gotokyo-5day-itinerary#C11</span></li>
+    <li>交通看住宿：飯店靠近 JR 車站多半搭 JR；靠近地鐵站則較適合地鐵票<span class="cite">jnto-useful-tickets-tokyo#C1</span></li>
+    <li>所以「行程 → 住宿 → 交通」是連動的，不是照編號一件件做完（整理者推論）<span class="cite">jnto-useful-tickets-tokyo#C2</span></li>
+  </ul>
+  <footer><span>出處（wiki）：concepts/accommodation-area.md、overview.md、sources/gotokyo-5day-itinerary.md、concepts/transit-passes.md、sources/jnto-useful-tickets-tokyo.md</span><span class="pg">2 / 14</span></footer>
+</section>
+<section data-draft="03" data-wiki="concepts/budget.md sources/jnto-budget-guide.md concepts/accommodation-area.md">
+  <h2>預算①：日本不一定很貴——先有物價概念</h2>
+  <ul>
+    <li>JNTO：「事先完整規劃，即使是最在意預算的旅客，也能負擔的起任何日本旅遊」<span class="cite">jnto-budget-guide#C1</span></li>
+    <li>一碗拉麵約 650 日圓起、咖啡店早餐約 400–700 日圓、半公升礦泉水約 110 日圓（原文無日期）<span class="cite">jnto-budget-guide#C13</span></li>
+    <li>青年旅社每晚約 3,000 日圓、便宜旅館單人房約 6,000 日圓起（全日本一般價格，原文無日期）<span class="cite">jnto-budget-guide#C2</span></li>
+    <li>估算方法：餐費、住宿用上面的單價，交通費看交通頁，加總後乘以天數（整理者推論）</li>
+    <li>JNTO 是日本國家旅遊局，日本官方的觀光單位（整理者補充）</li>
+  </ul>
+  <footer><span>出處（wiki）：concepts/budget.md、sources/jnto-budget-guide.md、concepts/accommodation-area.md</span><span class="pg">3 / 14</span></footer>
+</section>
+<section data-draft="04" data-wiki="concepts/budget.md sources/jnto-budget-guide.md concepts/transit-passes.md concepts/common-mistakes.md sources/zhgchgli-tokyo-5day-2023.md sources/gotokyo-haneda-airport.md">
+  <h2>預算②：省錢方法與付款方式</h2>
+  <ul>
+    <li>吃：熱門觀光區餐廳通常較貴，「隨著當地人走」；避開門外未標明價格的餐廳<span class="cite">jnto-budget-guide#C5</span></li>
+    <li>居酒屋、食堂、迴轉壽司、御好燒等較平價；計程車收費昂貴，最好避免長途<span class="cite">jnto-budget-guide#C6</span><span class="cite">jnto-budget-guide#C11</span></li>
+    <li>別只靠信用卡：一位旅客在藥妝店 Visa 刷不過，往成田的車票也不能刷卡（個人經驗，資訊日期 2023-06）<span class="cite">zhgchgli-tokyo-5day-2023#C3</span>；⚠️ 在哪裡買的車票，原文前後說法不一（東京車站 vs 新橋）<span class="cite">zhgchgli-tokyo-5day-2023#C6</span></li>
+    <li>這位作者建議日幣「至少留 1 萬上下在身上」（個人經驗）<span class="cite">zhgchgli-tokyo-5day-2023#C4</span></li>
+    <li>領現金：羽田機場 Seven 銀行的 ATM「適用最多家國外提款卡」（資訊日期 2026-09）<span class="cite">gotokyo-haneda-airport#C8</span></li>
+  </ul>
+  <footer><span>出處（wiki）：concepts/budget.md、sources/jnto-budget-guide.md、concepts/transit-passes.md、concepts/common-mistakes.md、sources/zhgchgli-tokyo-5day-2023.md、sources/gotokyo-haneda-airport.md</span><span class="pg">4 / 14</span></footer>
+</section>
+<section data-draft="05" data-wiki="concepts/entry-requirements.md sources/boca-japan-entry-main.md">
+  <h2>入境①：台灣護照免簽條件</h2>
+  <ul>
+    <li>在台灣設籍的台灣居民，以短期停留為目的，可免簽入境日本停留 90 天（原文無日期）<span class="cite">boca-japan-entry-main#C1</span></li>
+    <li>適用觀光、拜訪親友、參觀等；為就業或有報酬的活動入境，仍需事前取得簽證<span class="cite">boca-japan-entry-main#C2</span></li>
+    <li>入境時要自行舉證：持有效護照且在有效期內返回（原文註明「並未規定效期需大於6個月」）、目的與實際活動一致、不曾違反日本入管法（日本管理出入境的法律）的相關規定<span class="cite">boca-japan-entry-main#C3</span></li>
+    <li>外交部提醒：「符合上述條件者也並不表示一定可入境日本」<span class="cite">boca-japan-entry-main#C4</span></li>
+  </ul>
+  <footer><span>出處（wiki）：concepts/entry-requirements.md、sources/boca-japan-entry-main.md</span><span class="pg">5 / 14</span></footer>
+</section>
+<section data-draft="06" data-wiki="concepts/entry-requirements.md sources/boca-japan-entry-main.md">
+  <h2>入境②：出發前要備妥什麼、到機場會遇到什麼</h2>
+  <ul>
+    <li>出發前「請務必」備妥：來回機票、日程表、訂房記錄、財力證明（如信用卡），並確實填寫入出境表格（原文無日期）<span class="cite">boca-japan-entry-main#C5</span></li>
+    <li>審查官詢問時「請務必耐心據實回答」；目的或住處交代不清，仍有遭拒入境之虞<span class="cite">boca-japan-entry-main#C6</span></li>
+    <li>入境時要採集指紋、拍攝臉部照片<span class="cite">boca-japan-entry-main#C8</span></li>
+    <li>攜帶物品超過免稅範圍（20 萬日圓）要繳稅；免稅與違禁品以日本海關網頁為準<span class="cite">boca-japan-entry-main#C10</span></li>
+    <li>畜產品「在任何情況下(含個人消費或伴手禮)」違法攜入，都會被重罰<span class="cite">boca-japan-entry-main#C13</span></li>
+  </ul>
+  <footer><span>出處（wiki）：concepts/entry-requirements.md、sources/boca-japan-entry-main.md</span><span class="pg">6 / 14</span></footer>
+</section>
+<section data-draft="07" data-wiki="concepts/entry-requirements.md sources/funjapan-visit-japan-web.md">
+  <h2>入境③：Visit Japan Web 線上先填好</h2>
+  <ul>
+    <li>日本政府的免費網上服務，出發前先登錄檢疫（確認健康狀況）、入境審查、海關申報（資訊日期 2026-08）<span class="cite">funjapan-visit-japan-web#C1</span></li>
+    <li>不是強制的：不用的人仍可填紙本表格<span class="cite">funjapan-visit-japan-web#C2</span></li>
+    <li>先準備：護照、機票（可確認班機號碼）、日本住宿的地址與電話、電子郵件信箱<span class="cite">funjapan-visit-japan-web#C3</span></li>
+    <li>填完會拿到 QR Code，可截圖保存，但「無法取代護照」<span class="cite">funjapan-visit-japan-web#C7</span><span class="cite">funjapan-visit-japan-web#C8</span></li>
+    <li>小心假網站：服務完全免費，從 https://www.vjw.digital.go.jp/ 登入，要求輸入信用卡的網站或 APP 都不要填<span class="cite">funjapan-visit-japan-web#C9</span></li>
+  </ul>
+  <footer><span>出處（wiki）：concepts/entry-requirements.md、sources/funjapan-visit-japan-web.md</span><span class="pg">7 / 14</span></footer>
+</section>
+<section data-draft="08" data-wiki="concepts/transit-passes.md concepts/accommodation-area.md sources/jnto-useful-tickets-tokyo.md sources/zhgchgli-tokyo-5day-2023.md">
+  <h2>交通①：先看你會搭哪些路線，基本款是 IC 卡</h2>
+  <ul>
+    <li>選票前先想：你會搭哪些路線？住 JR 站旁多搭 JR，住地鐵站旁較適合地鐵票<span class="cite">jnto-useful-tickets-tokyo#C1</span></li>
+    <li>基本款 Suica（西瓜卡）／PASMO 是儲值型 IC 卡：進出站感應、出站自動計算車資、可隨時加值<span class="cite">jnto-useful-tickets-tokyo#C3</span></li>
+    <li>兩張卡可互換使用，JR、地鐵、公車都能搭<span class="cite">jnto-useful-tickets-tokyo#C4</span></li>
+    <li>押金 500 円，退卡時退押金但扣 210 円手續費（資訊日期 2024-12）<span class="cite">jnto-useful-tickets-tokyo#C5</span></li>
+    <li>實例：iPhone 可直接使用西瓜卡；同行的 Android 使用者只能在成田機場買 Welcome Suica（限時西瓜卡）（個人經驗，資訊日期 2023-06）<span class="cite">zhgchgli-tokyo-5day-2023#C7</span></li>
+  </ul>
+  <footer><span>出處（wiki）：concepts/transit-passes.md、concepts/accommodation-area.md、sources/jnto-useful-tickets-tokyo.md、sources/zhgchgli-tokyo-5day-2023.md</span><span class="pg">8 / 14</span></footer>
+</section>
+<section data-draft="09" data-wiki="concepts/transit-passes.md sources/jnto-useful-tickets-tokyo.md">
+  <h2>交通②：一日券怎麼挑——價格會過期</h2>
+  <ul>
+    <li>本頁票券分成 Tokyo Metro、都營地鐵兩種地鐵系統，再加上 JR；先看你會搭哪些系統再挑票（整理者推論）</li>
+    <li>只搭 JR：都區內通票（只限 JR）760 円；只搭 Metro：24 小時券 600 円；Metro＋都營：共通一日券 900 円（資訊日期 2024-12）<span class="cite">jnto-useful-tickets-tokyo#C6</span></li>
+    <li>JR＋地鐵＋公車都能搭：東京一日券 1,600 円，範圍最廣也最貴（資訊日期 2024-12）<span class="cite">jnto-useful-tickets-tokyo#C7</span></li>
+    <li>Tokyo Subway Ticket：24h 800／48h 1,200／72h 1,500 円，限外國觀光客或東京等 8 都縣以外居民（資訊日期 2024-12）<span class="cite">jnto-useful-tickets-tokyo#C8</span></li>
+    <li>⚠️ Tokyo Subway Ticket 價格可能已調整，目前沒有官方來源可證實<span class="cite">jnto-useful-tickets-tokyo#C9</span>；買票前到官網確認（整理者推論）</li>
+  </ul>
+  <footer><span>出處（wiki）：concepts/transit-passes.md、sources/jnto-useful-tickets-tokyo.md</span><span class="pg">9 / 14</span></footer>
+</section>
+<section data-draft="10" data-wiki="concepts/transit-passes.md sources/gotokyo-haneda-airport.md concepts/common-mistakes.md sources/zhgchgli-tokyo-5day-2023.md">
+  <h2>交通③：從機場到市區</h2>
+  <ul>
+    <li>羽田：距市中心約 15 公里，「通常在1小時內就能抵達東京的大半鬧區」（資訊日期 2026-09）<span class="cite">gotokyo-haneda-airport#C1</span></li>
+    <li>電車：京急線第 3 航廈→品川，快特 11 分鐘；單軌電車→濱松町最短 13 分鐘<span class="cite">gotokyo-haneda-airport#C2</span><span class="cite">gotokyo-haneda-airport#C3</span></li>
+    <li>巴士：利木津巴士到東京站、新宿站各約 55 分鐘<span class="cite">gotokyo-haneda-airport#C4</span></li>
+    <li>成田：N&#x27;EX（成田特快）東京來回票，往返成田機場與品川、新宿等主要車站、免轉乘；5,000 円、14 天內有效，限外國旅客（資訊日期 2024-12）<span class="cite">jnto-useful-tickets-tokyo#C11</span></li>
+    <li>踩雷：直接用 Suica 刷進站要搭成田特快，結果整班都是指定席，只能出站買票再進站（個人經驗，資訊日期 2023-06）<span class="cite">zhgchgli-tokyo-5day-2023#C5</span></li>
+  </ul>
+  <footer><span>出處（wiki）：concepts/transit-passes.md、sources/gotokyo-haneda-airport.md、concepts/common-mistakes.md、sources/zhgchgli-tokyo-5day-2023.md</span><span class="pg">10 / 14</span></footer>
+</section>
+<section data-draft="11" data-wiki="concepts/accommodation-area.md sources/jnto-budget-guide.md sources/gotokyo-accommodations.md sources/gotokyo-5day-itinerary.md">
+  <h2>住宿①：住哪一種、大概多少錢、住哪一區</h2>
+  <ul>
+    <li>預算有限：青年旅館、家庭旅館「均兼具安全與舒適度」<span class="cite">gotokyo-accommodations#C1</span></li>
+    <li>需要隱私：中級飯店、商務飯店，提供所有基本備品<span class="cite">gotokyo-accommodations#C3</span></li>
+    <li>參考價（每晚，全日本一般價格，原文無日期）：民宿單人房約 2,000 日圓起、中價位旅館雙人房約 10,000 日圓起<span class="cite">jnto-budget-guide#C2</span><span class="cite">jnto-budget-guide#C3</span></li>
+    <li>區域：主要車站站前有許多較實惠的商務旅館；東京東部的下町地區（傳統老街區）有設計感的家庭旅館與青年旅舍<span class="cite">gotokyo-5day-itinerary#C10</span></li>
+    <li>⚠️ 高級飯店集中在哪裡，GO TOKYO 兩頁說法不同：「東京站周邊、新宿、六本木等都心與灣岸地區」vs「皇居、日本橋、六本木、淺草附近」，只有六本木重疊<span class="cite">gotokyo-5day-itinerary#C12</span></li>
+  </ul>
+  <footer><span>出處（wiki）：concepts/accommodation-area.md、sources/jnto-budget-guide.md、sources/gotokyo-accommodations.md、sources/gotokyo-5day-itinerary.md</span><span class="pg">11 / 14</span></footer>
+</section>
+<section data-draft="12" data-wiki="concepts/accommodation-area.md sources/zhgchgli-tokyo-5day-2023.md concepts/common-mistakes.md sources/gotokyo-accommodations.md">
+  <h2>住宿②：早點訂、避開非法民宿、留意住宿稅</h2>
+  <ul>
+    <li>一位旅客只玩東京，所以找一間住 4 晚不用換的飯店（個人經驗，資訊日期 2023-06）<span class="cite">zhgchgli-tokyo-5day-2023#C8</span></li>
+    <li>訂得晚，連鎖商旅都沒空房，改找「東京地圖靠近中間又有電車地鐵站」的飯店（個人經驗）<span class="cite">zhgchgli-tokyo-5day-2023#C9</span></li>
+    <li>民宿：「即使設施看起來很乾淨，或出現在知名預訂網站上，非法民宿仍存在風險」<span class="cite">gotokyo-accommodations#C8</span></li>
+    <li>東京都內合法民宿會標示「M13」開頭的申報編號或許可編號，訂之前先確認；網站沒寫就直接問設施（原文無日期）<span class="cite">gotokyo-accommodations#C11</span><span class="cite">gotokyo-accommodations#C12</span></li>
+    <li>每人每晚住宿費達 10,000 日圓以上，可能需繳住宿稅（原文無日期）<span class="cite">gotokyo-accommodations#C13</span></li>
+  </ul>
+  <footer><span>出處（wiki）：concepts/accommodation-area.md、sources/zhgchgli-tokyo-5day-2023.md、concepts/common-mistakes.md、sources/gotokyo-accommodations.md</span><span class="pg">12 / 14</span></footer>
+</section>
+<section data-draft="13" data-wiki="concepts/itinerary-planning.md sources/gotokyo-5day-itinerary.md places/tokyo-areas.md concepts/common-mistakes.md overview.md sources/zhgchgli-tokyo-5day-2023.md">
+  <h2>行程：相近景點排同一天，天數不夠就取捨</h2>
+  <ul>
+    <li>核心原則：「將相近的目的地依序分為一組」，排在同一天<span class="cite">gotokyo-5day-itinerary#C1</span></li>
+    <li>GO TOKYO 認為想悠閒遊覽東京「至少需要五天」<span class="cite">gotokyo-5day-itinerary#C2</span></li>
+    <li>範例：第 1 天東部（淺草寺、晴空塔）、第 3 天中心部（築地、皇居、銀座）、第 4 天西部（原宿、明治神宮、新宿）<span class="cite">gotokyo-5day-itinerary#C3</span></li>
+    <li>只有 3 天就選第 1、3、4 天；⚠️ 原文說這樣涵蓋「東部、中部及南部」，但第 4 天標的是西部<span class="cite">gotokyo-5day-itinerary#C4</span><span class="cite">gotokyo-5day-itinerary#C5</span></li>
+    <li>熱門景點先買票：一位旅客提前買了迪士尼海洋、橫濱鋼彈、SHIBUYA SKY 的票，並說「以上沒有先買，到現場都是沒有空的位子可以進去的」（個人經驗，資訊日期 2023-06）<span class="cite">zhgchgli-tokyo-5day-2023#C1</span></li>
+  </ul>
+  <footer><span>出處（wiki）：concepts/itinerary-planning.md、sources/gotokyo-5day-itinerary.md、places/tokyo-areas.md、concepts/common-mistakes.md、overview.md、sources/zhgchgli-tokyo-5day-2023.md</span><span class="pg">13 / 14</span></footer>
+</section>
+<section data-draft="14" data-wiki="concepts/budget.md concepts/common-mistakes.md sources/zhgchgli-tokyo-5day-2023.md concepts/transit-passes.md concepts/accommodation-area.md concepts/entry-requirements.md sources/funjapan-visit-japan-web.md">
+  <h2>新手常見錯誤＋行前檢查清單</h2>
+  <ul>
+    <li>以為到處都能刷卡 → 往成田的車票不能刷卡，差點湊不出車錢<span class="cite">zhgchgli-tokyo-5day-2023#C3</span>（⚠️ 買票地點原文前後不一：東京車站 vs 新橋<span class="cite">zhgchgli-tokyo-5day-2023#C6</span>）</li>
+    <li>用 IC 卡直接刷進成田特快 → 整班都是指定席，只能出站買票再進站<span class="cite">zhgchgli-tokyo-5day-2023#C5</span></li>
+    <li>太晚訂房 → 連鎖商旅都沒空房<span class="cite">zhgchgli-tokyo-5day-2023#C9</span></li>
+    <li>一人代刷全部機票 → 應各自用自己的信用卡刷機票（刷卡會附送旅遊保險）（以上皆為同一位旅客的個人經驗，資訊日期 2023-06）<span class="cite">zhgchgli-tokyo-5day-2023#C11</span></li>
+    <li>行前清單：護照正本（QR Code「無法取代護照」）、旅遊計畫文件、Visit Japan Web、IC 卡、日幣現金、確認民宿編號（整理者推論，彙整自前面各頁）<span class="cite">funjapan-visit-japan-web#C8</span></li>
+  </ul>
+  <footer><span>出處（wiki）：concepts/budget.md、concepts/common-mistakes.md、sources/zhgchgli-tokyo-5day-2023.md、concepts/transit-passes.md、concepts/accommodation-area.md、concepts/entry-requirements.md、sources/funjapan-visit-japan-web.md</span><span class="pg">14 / 14</span></footer>
+</section>
+<div class="nav"><button id="prev" aria-label="上一頁">‹</button><button id="next" aria-label="下一頁">›</button></div>
+<script>
+const S = [...document.querySelectorAll("section")];
+let i = 0;
+function go(n) { i = Math.max(0, Math.min(S.length - 1, n)); S.forEach((s, k) => s.classList.toggle("active", k === i)); history.replaceState(null, "", "#" + (i + 1)); }
+const m = location.hash.match(/(\d+)/); go(m ? +m[1] - 1 : 0);
+document.addEventListener("keydown", e => {
+  if (["ArrowRight","PageDown"," "].includes(e.key)) go(i + 1);
+  if (["ArrowLeft","PageUp"].includes(e.key)) go(i - 1);
+});
+document.getElementById("next").onclick = () => go(i + 1);
+document.getElementById("prev").onclick = () => go(i - 1);
+let x0 = null;
+document.addEventListener("touchstart", e => x0 = e.touches[0].clientX);
+document.addEventListener("touchend", e => { if (x0 === null) return; const d = e.changedTouches[0].clientX - x0; if (Math.abs(d) > 50) go(i + (d < 0 ? 1 : -1)); x0 = null; });
+</script>
+</body>
+</html>
