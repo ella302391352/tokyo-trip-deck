@@ -111,3 +111,8 @@
 - 檢查：送審前自我修正 2 處語氣；check.py 0 錯誤；AI 審查第 1 輪 1 問題 → 修正 → 第 2 輪通過
 - 出錯：有 — 把 N1 檢查 HTML 得知的「頁尾日期為全站共用」寫進來源頁，raw 中沒有（N2）。新規則剛訂立仍被違反，靠 AI 審查攔下
 - 紀錄：reviews/2026-11-11-N2-boca-japan-entry-main.md
+## [2026-11-11] N2 ingest | gotokyo-haneda-airport
+- 動作：先討論後生成（網路資訊放交通頁羽田小節；羽田至成田、航廈等細節只放來源頁）；新增 sources/gotokyo-haneda-airport；更新 concepts/transit-passes（機場一節分羽田／成田，消掉「羽田交通」待查）、budget（Seven 銀行 ATM）、overview、index
+- 檢查：check.py 0 錯誤；AI 審查第 1 輪 1 個輕微問題（引文多一個空格）→ 修正 → 第 2 輪通過
+- 出錯：有（輕微）— 引文未逐字（N2）
+- 紀錄：reviews/2026-11-11-N2-gotokyo-haneda-airport.md

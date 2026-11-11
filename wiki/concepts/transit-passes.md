@@ -1,6 +1,6 @@
 ---
 type: concept
-sources: [jnto-useful-tickets-tokyo, gotokyo-5day-itinerary, zhgchgli-tokyo-5day-2023, jnto-budget-guide]
+sources: [jnto-useful-tickets-tokyo, gotokyo-5day-itinerary, zhgchgli-tokyo-5day-2023, jnto-budget-guide, gotokyo-haneda-airport]
 updated: 2026-11-11
 ---
 # 交通票券怎麼選
@@ -47,7 +47,28 @@ updated: 2026-11-11
 
 > ⚠️ 可能過期：Tokyo Subway Ticket 價格可能已調整，但目前沒有可存成 raw 的官方來源可證實（待查）。見 [來源頁](../sources/jnto-useful-tickets-tokyo.md)。
 
-## 機場到市區（成田機場）
+## 機場到市區
+
+### 羽田機場
+
+羽田機場距東京市中心約 15 公里，「通常在1小時內就能抵達東京的大半鬧區」（資訊日期 2026-09，[gotokyo-haneda-airport](../sources/gotokyo-haneda-airport.md)）。
+
+| 方式 | 路線 | 所需時間 |
+|---|---|---|
+| 電車 | 京急線：第 3 航廈 → 品川 | 快特 11 分鐘；特急、急行約 20 分鐘 |
+| 電車 | 品川 → 東京（JR 山手線） | 約 13 分鐘 |
+| 電車 | 東京單軌電車：第 3 航廈 → 濱松町 | 最短 13 分鐘 |
+| 電車 | 濱松町 → 東京（JR 山手線） | 約 7 分鐘 |
+| 巴士 | 利木津巴士：→ 東京站／新宿站 | 各約 55 分鐘 |
+| 巴士 | 京濱急行巴士：→ 東京站／澀谷站 | 約 55／60 分鐘 |
+
+（資訊日期 2026-09，[gotokyo-haneda-airport](../sources/gotokyo-haneda-airport.md)）
+
+- 巴士票在抵達後於售票機購買；第 3 航廈有多語言工作人員的巴士車票服務台（[gotokyo-haneda-airport](../sources/gotokyo-haneda-airport.md)）。
+- 計程車：羽田離市中心不遠，「車資並不會過於昂貴」；定額制計程車採預約制，22:00 至隔日 5:00 加價，走高速公路另收過路費（資訊日期 2026-09，[gotokyo-haneda-airport](../sources/gotokyo-haneda-airport.md)）。
+- 網路：機場便利商店、自動販賣機等處可租 Wi-Fi 路由器、買預付 SIM 卡；原文「建議事先預約好Wi-Fi分享器」（資訊日期 2026-09，[gotokyo-haneda-airport](../sources/gotokyo-haneda-airport.md)）。
+
+### 成田機場
 
 - **N'EX 東京來回票**：成田特快（N'EX）往返成田機場與品川、澀谷、新宿、池袋、大宮、橫濱、大船等主要車站，免轉乘；14 天內有效，成人 5,000 円；**限外國旅客**（查驗護照），只在成田機場第 1、2 航廈 JR 售票處及 JR 東日本旅遊服務中心販售。搭上 N'EX 後可轉乘指定東京區域內的其他 JR 東日本列車，但出閘門後不能再次進站（資訊日期 2024-12，[jnto-useful-tickets-tokyo](../sources/jnto-useful-tickets-tokyo.md)）。
 - **利木津巴士來回優惠券**：給抵達成田機場旅客的優惠券，成人 6,000 円，在成田機場利木津巴士售票櫃台購買（資訊日期 2024-12，[jnto-useful-tickets-tokyo](../sources/jnto-useful-tickets-tokyo.md)）。
@@ -61,7 +82,6 @@ updated: 2026-11-11
 
 ## 尚未有資料的部分
 
-- 羽田機場到市區的方式（待查）
 - 哪些情況買一日券比用 IC 卡划算（待查）
 
 ## 相關頁面

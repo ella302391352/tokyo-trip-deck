@@ -1,6 +1,6 @@
 ---
 type: concept
-sources: [jnto-budget-guide, zhgchgli-tokyo-5day-2023]
+sources: [jnto-budget-guide, zhgchgli-tokyo-5day-2023, gotokyo-haneda-airport]
 updated: 2026-11-11
 ---
 # 預算與付款
@@ -37,6 +37,7 @@ updated: 2026-11-11
 
 - 不是每個地方都能刷卡：新宿藥妝店 Visa 刷不過、只能付現；往成田機場的車票不能刷卡也不能用 Suica 購買（個人經驗，資訊日期 2023-06，[zhgchgli-tokyo-5day-2023](../sources/zhgchgli-tokyo-5day-2023.md)）。
 - 作者建議：日幣「至少留 1 萬上下在身上，避免遇到不能刷卡或不能刷 Visa 卡的狀況」（個人經驗，資訊日期 2023-06，[zhgchgli-tokyo-5day-2023](../sources/zhgchgli-tokyo-5day-2023.md)）。
+- 去哪裡領現金：羽田機場有日本主要銀行的自動櫃員機，「其中又以Seven銀行的自動櫃員機適用最多家國外提款卡」（資訊日期 2026-09，[gotokyo-haneda-airport](../sources/gotokyo-haneda-airport.md)）。
 
 ## 實際花費案例（個人經驗）
 
