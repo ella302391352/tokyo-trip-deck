@@ -37,11 +37,10 @@ LLMWIKI notes/
 │   ├─ concepts/        通用規劃概念（預算、入境、交通票券、住宿選區、行程排法…）
 │   ├─ places/          東京的區域/景點/交通節點
 │   └─ syntheses/       比較、分析、Query 存回來的好答案
-├─ slides/
-│   ├─ outline.md       簡報大綱（每張投影片標出 wiki 出處）
-│   └─ deck.html        教學 HTML 簡報（單一檔案）
+├─ .agents/workflows/   流程檔；topic-slides.md 是簡報的 graph
+├─ slides/              簡報各關的產物：sources.md、cards/、outline.md、drafts/、deck.html、report.md；baseline/ 為對照組
 ├─ reviews/             每一次檢查的紀錄（作業要交）
-└─ tools/check.py       程式檢查腳本
+└─ tools/               check.py（程式檢查）、render_check.py（渲染檢查）、fetch_raw.py（轉存 raw）
 ```
 
 - **檔名**：英文 kebab-case，例如 `jnto-visa-info.md`、`suica-vs-pasmo.md`。
@@ -104,12 +103,12 @@ updated: 2026-11-10
    │                                       [N3 Lint]
    └──── 資料不足：回頭補來源 ─────────────────────┤
                                                    ▼
-                   [N4 查 Wiki → 大綱] ⇄ [N5 大綱審查]   （最多 3 輪）
-                                                   ▼
-                   [N6 生成 HTML]    ⇄ [N7 HTML 檢查]    （最多 3 輪）
+              [G1–G6 簡報 graph，見 .agents/workflows/topic-slides.md]
                                                    ▼
                                        [N8 紀錄 / 反思]
 ```
+
+（2026-11-11 起，原本的 N4–N7 改為 G1–G6 的簡報 graph，依課程 p.41–47 設計。）
 
 節點代號（N1–N8）固定使用，log 和 reviews 都用這組代號，最後才能統計「哪個節點最常出錯」。
 
@@ -160,39 +159,14 @@ updated: 2026-11-10
 - ⏰ **觸發**：使用者說「lint」；或每 ingest 完 3 篇時 AI 主動提醒；進入 N4 之前必跑一次。
 - 📝 **分工**（2026-11-11 調整）：每頁的「忠於來源」已在 N2 逐篇審過，N3 的 AI 審查改為著重**跨頁問題**：頁面之間的矛盾、重複、同一件事在不同頁說法不一致、缺頁與（待查）清單。
 
-### N4 查 Wiki → 簡報大綱
+### G1–G6 簡報 graph
 
-- 🎯 **目標**：產出 `slides/outline.md`，一份給初學者的教學大綱。
-- 🚧 **限制**：
-  - **只能用 wiki 的內容**（先讀 `index.md` 再進各頁），不准用模型自己的知識或重新上網補。
-  - 每張投影片一個 `## ` 標題，內容下方列 `出處：` 並附 wiki 頁連結（至少一個）。
-  - 教學結構：為什麼要規劃 → 規劃流程總覽 → 各步驟（概念 + 東京實例）→ 常見錯誤 → 行前檢查清單 → 總結。
-  - 寫大綱前先與使用者確認章節方向（先討論、後生成）。
-- ✅ **完成標準**：每張投影片都有 wiki 出處、check.py 通過、通過 N5 審查。
-- 🛑 **停止條件**：某章 wiki 資料不足 → 不硬湊，記錄缺口並回到 N1 補來源。
-- ⏰ **觸發**：使用者說「做大綱」，且 N3 lint 已通過。
+完整規格（每一關只能看什麼、產出什麼、關卡、退回路線、剎車）在 `.agents/workflows/topic-slides.md`，做簡報前必讀。重點：
 
-### N5 大綱審查（AI 審查）
-
-見第 6 節。審查不通過 → 回到 N4 修改，**最多 3 輪**。
-
-### N6 生成 HTML
-
-- 🎯 **目標**：把 outline 轉成 `slides/deck.html`，可直接用瀏覽器開啟並翻頁。
-- 🚧 **限制**：
-  - 單一 HTML 檔，不依賴外部網路資源（或僅限 CDN 字型），鍵盤左右鍵可翻頁、手機可看。
-  - 每張投影片是一個 `<section data-wiki="concepts/budget.md places/shinjuku.md">`（路徑相對於 `wiki/`），頁尾以小字顯示出處。
-  - **內容不得超出 outline**；要加內容先改 outline 並重跑 N5。
-- ✅ **完成標準**：check.py 通過（每個 section 都有有效的 data-wiki）、通過 N7。
-- 🛑 **停止條件**：修 3 輪仍不過 → 停下回報。
-- ⏰ **觸發**：outline 通過 N5 後，使用者說「做簡報」。
-
-### N7 HTML 檢查
-
-- 程式檢查：`python tools/check.py`。
-- AI 審查：見第 6 節，審查對象為 deck.html 對照 outline 與 wiki。
-- 不通過 → 回 N6，最多 3 輪。
-
+- 只能用 wiki 的內容；證據卡一張只對應一篇來源；逐頁稿只能引用該頁的卡片；渲染時不能改任何字。
+- 關卡：覆蓋率（相關頁少於 3 頁就停）→ 👤 使用者確認大綱 → 忠實度（check.py＋AI 審查）→ 渲染（render_check.py）。
+- 錯在哪一關就退回哪一關；每頁最多修 2 輪、整體最多 3 輪。
+- 進入 G1 之前必須先跑一次 N3 lint。
 ### N8 紀錄 / 反思
 
 每完成一個節點都在 `log.md` 追加紀錄；全部完成後，從 log 與 reviews 統計各節點出錯次數，作為反思依據。**反思只能根據實際紀錄，不可編造。**

@@ -1,6 +1,7 @@
-"""Wiki / 簡報程式檢查（AGENTS.md 6.1）。
+"""Wiki / 簡報程式檢查（AGENTS.md 6.1、.agents/workflows/topic-slides.md）。
 
 用法：在專案根目錄執行 `python tools/check.py`
+     只檢查某個簡報資料夾：`python tools/check.py --slides slides/baseline`
 有 ERROR 時 exit code = 1。
 """
 import re
@@ -11,8 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 WIKI = ROOT / "wiki"
 RAW = ROOT / "raw" / "papers"
-OUTLINE = ROOT / "slides" / "outline.md"
-DECK = ROOT / "slides" / "deck.html"
+SLIDES = ROOT / "slides"
 
 SPECIAL = {"index.md", "log.md", "overview.md"}
 TYPES = {"source", "concept", "place", "synthesis"}
@@ -138,46 +138,123 @@ def check_raw():
             warnings.append(f"{rel(p)}: 原文日期不明")
 
 
-def check_outline():
-    if not OUTLINE.exists():
-        return
-    text = OUTLINE.read_text(encoding="utf-8-sig")
-    slides = re.split(r"^## ", text, flags=re.M)[1:]
-    if not slides:
-        errors.append(f"{rel(OUTLINE)}: 找不到任何 `## ` 投影片")
-    for i, body in enumerate(slides, 1):
-        title = body.splitlines()[0].strip()
-        wiki_links = [(t, r) for t, r in links_in(OUTLINE, body) if WIKI.resolve() in r.parents]
-        if not wiki_links:
-            errors.append(f"{rel(OUTLINE)}: 第 {i} 張「{title}」沒有 wiki 出處")
-        for t, r in wiki_links:
-            if not r.exists():
-                errors.append(f"{rel(OUTLINE)}: 第 {i} 張「{title}」斷鏈 → {t}")
+CARD_LINE = re.compile(r"^- (C\d+)：(.+?)〔wiki: ([^〕]+)〕\s*$")
+CITE = re.compile(r"〔([a-z0-9-]+)#(C\d+)〕")
+NUM = re.compile(r"\d[\d,]*(?:\.\d+)?")
+SLIDE_MIN, SLIDE_MAX = 8, 15
 
 
-def check_deck():
-    if not DECK.exists():
-        return
-    text = DECK.read_text(encoding="utf-8-sig")
-    sections = SECTION.findall(text)
-    if not sections:
-        errors.append(f"{rel(DECK)}: 找不到任何 <section>")
-    for i, attrs in enumerate(sections, 1):
-        m = DATA_WIKI.search(attrs)
-        paths = m[1].split() if m else []
-        if not paths:
-            errors.append(f"{rel(DECK)}: 第 {i} 張投影片沒有 data-wiki 出處")
-        for w in paths:
-            if not (WIKI / w).exists():
-                errors.append(f"{rel(DECK)}: 第 {i} 張 data-wiki 指向不存在的 wiki/{w}")
+def nums(text):
+    return {n.replace(",", "") for n in NUM.findall(text) if len(n.replace(",", "")) >= 2}
+
+
+def check_slides(sdir: Path, baseline=False):
+    """簡報 graph（.agents/workflows/topic-slides.md）各關產物的檢查。"""
+    source_slugs = {p.stem for p in (WIKI / "sources").glob("*.md")}
+    claims = {}  # (slug, Cn) -> text
+    cards_dir = sdir / "cards"
+    for p in sorted(cards_dir.glob("*.md")) if cards_dir.exists() else []:
+        text = p.read_text(encoding="utf-8-sig")
+        fm = frontmatter(text) or {}
+        slug = fm.get("source", "")
+        if slug != p.stem or slug not in source_slugs:
+            errors.append(f"{rel(p)}: source 應為檔名且存在於 wiki/sources/（目前 {slug!r}）")
+        for line in text.splitlines():
+            if not line.startswith("- "):
+                continue
+            m = CARD_LINE.match(line)
+            if not m:
+                errors.append(f"{rel(p)}: 卡片行格式錯誤（需「- Cn：…〔wiki: 路徑〕」）：{line[:40]}")
+                continue
+            claims[(p.stem, m[1])] = m[2]
+            for w in m[3].split():
+                if not (WIKI / w).exists():
+                    errors.append(f"{rel(p)} {m[1]}: 指向不存在的 wiki/{w}")
+
+    n_outline = None
+    outline = sdir / "outline.md"
+    if outline.exists():
+        heads = re.findall(r"^## (\d+)", outline.read_text(encoding="utf-8-sig"), re.M)
+        n_outline = len(heads)
+        for line in outline.read_text(encoding="utf-8-sig").splitlines():
+            if line.startswith("卡片："):
+                for ref in re.findall(r"([a-z0-9-]+)#(C\d+)", line):
+                    if ref not in claims:
+                        errors.append(f"{rel(outline)}: 引用不存在的卡片 {ref[0]}#{ref[1]}")
+
+    used = set()
+    drafts = sorted((sdir / "drafts").glob("*.md")) if (sdir / "drafts").exists() else []
+    for p in drafts:
+        text = p.read_text(encoding="utf-8-sig")
+        # 不用 frontmatter()：它會把 # 之後當註解切掉，而卡片編號正好含 #
+        m = re.search(r"^cards:\s*\[(.*?)\]", text, re.M)
+        allowed = set(re.findall(r"([a-z0-9-]+)#(C\d+)", m[1])) if m else set()
+        if not m:
+            errors.append(f"{rel(p)}: frontmatter 缺少 cards 清單")
+        for line in text.splitlines():
+            if not line.lstrip().startswith("- "):
+                continue
+            refs = CITE.findall(line)
+            if not refs and "（整理者推論）" not in line:
+                errors.append(f"{rel(p)}: 要點沒有卡片出處也沒標（整理者推論）：{line.strip()[:40]}")
+            cited_text = ""
+            for ref in refs:
+                if ref not in claims:
+                    errors.append(f"{rel(p)}: 引用不存在的卡片 {ref[0]}#{ref[1]}")
+                elif ref not in allowed:
+                    errors.append(f"{rel(p)}: 引用了這頁 cards 清單以外的卡片 {ref[0]}#{ref[1]}")
+                else:
+                    cited_text += claims[ref]
+                    used.add(ref)
+            if refs:
+                missing = nums(CITE.sub("", line)) - nums(cited_text)
+                if missing:
+                    errors.append(f"{rel(p)}: 數字在引用卡片中找不到 {sorted(missing)}：{line.strip()[:40]}")
+
+    deck = sdir / "deck.html"
+    n_deck = None
+    if deck.exists():
+        text = deck.read_text(encoding="utf-8-sig")
+        sections = SECTION.findall(text)
+        n_deck = len(sections)
+        for i, attrs in enumerate(sections, 1):
+            m = DATA_WIKI.search(attrs)
+            paths = m[1].split() if m else []
+            if not paths:
+                errors.append(f"{rel(deck)}: 第 {i} 頁沒有 data-wiki 出處")
+            for w in paths:
+                if not (WIKI / w).exists():
+                    errors.append(f"{rel(deck)}: 第 {i} 頁 data-wiki 指向不存在的 wiki/{w}")
+            if not baseline and not re.search(r'data-draft\s*=\s*"\d+"', attrs):
+                errors.append(f"{rel(deck)}: 第 {i} 頁沒有 data-draft")
+
+    counts = {k: v for k, v in (("大綱", n_outline), ("逐頁稿", len(drafts) or None), ("簡報", n_deck)) if v}
+    for k, v in counts.items():
+        if not SLIDE_MIN <= v <= SLIDE_MAX:
+            errors.append(f"{rel(sdir)}: {k}共 {v} 頁，應為 {SLIDE_MIN}–{SLIDE_MAX} 頁")
+    if len(set(counts.values())) > 1:
+        errors.append(f"{rel(sdir)}: 各關頁數不一致 {counts}")
+
+    if drafts and claims:
+        unused = sorted({s for s, _ in claims} - {s for s, _ in used})
+        if unused:
+            warnings.append(f"{rel(sdir)}: 覆蓋率——這些來源的卡片沒有任何一頁用到：{', '.join(unused)}")
 
 
 def main():
     sys.stdout.reconfigure(errors="replace")
+    if len(sys.argv) == 3 and sys.argv[1] == "--slides":
+        # 只檢查某個簡報資料夾，例如對照組：python tools/check.py --slides slides/baseline
+        check_slides((ROOT / sys.argv[2]).resolve(), baseline=True)
+        for w in warnings:
+            print(f"WARN  {w}")
+        for e in errors:
+            print(f"ERROR {e}")
+        print(f"結果：{len(errors)} 個錯誤、{len(warnings)} 個警告")
+        sys.exit(1 if errors else 0)
     n = check_wiki()
     check_raw()
-    check_outline()
-    check_deck()
+    check_slides(SLIDES)
 
     print(f"檢查 {n} 個 wiki 頁、{len(list(RAW.glob('*.md'))) if RAW.exists() else 0} 個 raw 來源")
     for w in warnings:
