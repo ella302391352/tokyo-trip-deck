@@ -53,3 +53,9 @@
 - 動作：使用者同意修改 AGENTS.md：N2 完成標準新增「每篇 ingest 後，對本次新增／修改頁面做忠於來源的 AI 審查」；N3 改為著重跨頁問題
 - 原因：N3 第 1 次 lint 發現 9 個問題全部在 N2 產生，check.py 與 N2 自我複查都抓不到；累積 3 篇才審，錯誤已擴散到多頁（例如同一個「熱門景點先買票」泛化同時出現在 overview、itinerary-planning、common-mistakes）
 - 出錯：無
+
+## [2026-11-11] N2 ingest | boca-japan-entry
+- 動作：先討論後生成（不收打工／留學；海關只寫三件事；黃金與遭拒入境案例不放常見錯誤）；新增 sources/boca-japan-entry、concepts/entry-requirements；更新 overview（入境準備）、index
+- 檢查：check.py 0 錯誤；AI 審查（新流程）第 1 輪 2 問題＋1 不確定 → 修正 → 第 2 輪通過
+- 出錯：有 — ① 討論時把「出境申請表（ED 卡）」說成「入境卡」，寫入前改回原文用語 ② 語氣改變 2 處（「請務必」→「建議」、「原則上僅適用」→「僅限」）③ 把 N1 網頁摘要看到的「最後更新」帶進來，raw 中沒有（N2）
+- 紀錄：reviews/2026-11-11-N2-boca-japan-entry.md
