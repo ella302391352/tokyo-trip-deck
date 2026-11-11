@@ -13,6 +13,7 @@ updated: 2026-11-10
 | [gotokyo-5day-itinerary](sources/gotokyo-5day-itinerary.md) | GO TOKYO 官方五天行程：相近景點分組、天數取捨、住宿區域 | 2026-03-05 |
 | [jnto-useful-tickets-tokyo](sources/jnto-useful-tickets-tokyo.md) | JNTO 東京交通票券比較：IC 卡、一日券、機場票券 | 2024-12-24 |
 | [boca-japan-entry](sources/boca-japan-entry.md) | 外交部領事局：免簽 90 天、行前備妥文件、入境審查、海關申報、禁止攜帶 | 2022-06-21 |
+| [funjapan-visit-japan-web](sources/funjapan-visit-japan-web.md) | FUN! JAPAN：Visit Japan Web 註冊步驟、QR Code、假網站、同行家人 | 2026-08-28 |
 | [zhgchgli-tokyo-5day-2023](sources/zhgchgli-tokyo-5day-2023.md) | 個人遊記：東京 5 日，提前買票、帶現金、成田特快踩雷、住宿策略 | 2023-07-09 |
 
 ## 概念（concepts）
@@ -22,7 +23,7 @@ updated: 2026-11-10
 | [行程怎麼排](concepts/itinerary-planning.md) | 相近景點排同一天；先定天數再取捨 |
 | [住宿區域怎麼選](concepts/accommodation-area.md) | 依目的與區域選住宿；各區住宿特色；住宿地點影響選票 |
 | [交通票券怎麼選](concepts/transit-passes.md) | 依會搭的路線選票；Suica／PASMO；一日券分類表；成田機場票券與踩雷 |
-| [入境準備](concepts/entry-requirements.md) | 免簽條件、要準備的文件、入境審查、海關申報、禁止攜帶 |
+| [入境準備](concepts/entry-requirements.md) | 免簽條件、要準備的文件、入境審查、海關申報、禁止攜帶、Visit Japan Web |
 | [預算與付款](concepts/budget.md) | 要帶現金；個人花費案例；機票與旅遊保險 |
 | [新手常見錯誤](concepts/common-mistakes.md) | 依行程／交通／付款／住宿分類的實際踩雷經驗 |
 

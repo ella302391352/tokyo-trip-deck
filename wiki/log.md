@@ -59,3 +59,9 @@
 - 檢查：check.py 0 錯誤；AI 審查（新流程）第 1 輪 2 問題＋1 不確定 → 修正 → 第 2 輪通過
 - 出錯：有 — ① 討論時把「出境申請表（ED 卡）」說成「入境卡」，寫入前改回原文用語 ② 語氣改變 2 處（「請務必」→「建議」、「原則上僅適用」→「僅限」）③ 把 N1 網頁摘要看到的「最後更新」帶進來，raw 中沒有（N2）
 - 紀錄：reviews/2026-11-11-N2-boca-japan-entry.md
+
+## [2026-11-11] N2 ingest | funjapan-visit-japan-web
+- 動作：先討論後生成（免稅與機場設備細節只放來源頁；兩種紙本表格名稱各依原文；無出處說法標「未附官方出處」）；新增 sources/funjapan-visit-japan-web；更新 concepts/entry-requirements（新增第 6 節 Visit Japan Web，消掉 1 項待查）、overview、index
+- 檢查：check.py 0 錯誤；AI 審查第 1 輪 1 問題 → 修正 → 第 2 輪通過
+- 出錯：有 — 把 N1 網頁摘要中的「著作權屬 JTB」帶進來源頁，raw 中沒有（N2）。與上一篇「頁面最後更新」為同一模式：N1 看過、但沒存進 raw 的資訊滲入 wiki
+- 紀錄：reviews/2026-11-11-N2-funjapan-visit-japan-web.md
