@@ -195,8 +195,8 @@ def check_slides(sdir: Path, baseline=False):
             if not line.lstrip().startswith("- "):
                 continue
             refs = CITE.findall(line)
-            if not refs and "（整理者推論）" not in line:
-                errors.append(f"{rel(p)}: 要點沒有卡片出處也沒標（整理者推論）：{line.strip()[:40]}")
+            if not refs and "（整理者推論）" not in line and "（整理者補充）" not in line:
+                errors.append(f"{rel(p)}: 要點沒有卡片出處也沒標（整理者推論／整理者補充）：{line.strip()[:40]}")
             cited_text = ""
             for ref in refs:
                 if ref not in claims:

@@ -48,7 +48,7 @@
 目的：類型與價格（全日本一般價格、原文無日期）；各區住宿特色；高級飯店區域兩種說法並列。
 
 ## 12 住宿②：早點訂、避開非法民宿、留意住宿稅
-卡片：zhgchgli-tokyo-5day-2023#C8, zhgchgli-tokyo-5day-2023#C9, gotokyo-accommodations#C8, gotokyo-accommodations#C11, gotokyo-accommodations#C13
+卡片：zhgchgli-tokyo-5day-2023#C8, zhgchgli-tokyo-5day-2023#C9, gotokyo-accommodations#C8, gotokyo-accommodations#C11, gotokyo-accommodations#C12, gotokyo-accommodations#C13
 目的：一間住到底、太晚訂房的實例；民宿看「M13」申報編號；住宿稅門檻。
 
 ## 13 行程：相近景點排同一天，天數不夠就取捨
