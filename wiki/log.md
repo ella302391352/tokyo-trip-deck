@@ -105,3 +105,9 @@
 - 動作：使用者核准 E、H1（H2 羽田機場官網電車頁不收，與 H1 重疊）；存入 raw/papers/
 - 檢查：依新規則自行核對日期——E 內文無屬於該頁的日期（頁尾 2022-06-21 為全站日期）→ unknown；H1 內文開頭「Updated: September 1, 2026」→ 2026-09-01。check.py 0 錯誤
 - 出錯：無
+
+## [2026-11-11] N2 ingest | boca-japan-entry-main（取代舊版）
+- 動作：使用者決定 wiki 不保留舊版內容 → 刪除 wiki/sources/boca-japan-entry.md（raw 保留不引用）；新增 sources/boca-japan-entry-main；改寫 concepts/entry-requirements 第 1–5 節；更新 overview、index、funjapan 來源頁連結
+- 檢查：送審前自我修正 2 處語氣；check.py 0 錯誤；AI 審查第 1 輪 1 問題 → 修正 → 第 2 輪通過
+- 出錯：有 — 把 N1 檢查 HTML 得知的「頁尾日期為全站共用」寫進來源頁，raw 中沒有（N2）。新規則剛訂立仍被違反，靠 AI 審查攔下
+- 紀錄：reviews/2026-11-11-N2-boca-japan-entry-main.md

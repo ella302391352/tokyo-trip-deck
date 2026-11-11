@@ -39,4 +39,4 @@ source_type: guide
 ## 相關頁面
 
 - [入境準備](../concepts/entry-requirements.md)
-- [外交部入境須知（舊版）](boca-japan-entry.md)
+- [外交部入境須知](boca-japan-entry-main.md)
