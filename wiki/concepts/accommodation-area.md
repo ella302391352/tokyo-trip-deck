@@ -1,7 +1,7 @@
 ---
 type: concept
-sources: [gotokyo-5day-itinerary, jnto-useful-tickets-tokyo, zhgchgli-tokyo-5day-2023]
-updated: 2026-11-10
+sources: [gotokyo-5day-itinerary, jnto-useful-tickets-tokyo, zhgchgli-tokyo-5day-2023, jnto-budget-guide]
+updated: 2026-11-11
 ---
 # 住宿區域怎麼選
 
@@ -10,6 +10,20 @@ updated: 2026-11-10
 ## 住宿類型
 
 東京的住宿設施有：奢華飯店與高級日式旅館、方便行動的商務旅館或膠囊旅館、適合長住的青年旅舍及家庭旅館；可依旅遊目的與區域挑選偏好的類型（[gotokyo-5day-itinerary](../sources/gotokyo-5day-itinerary.md)）。
+
+## 各類型的價格（每晚）
+
+| 類型 | 價格 |
+|---|---|
+| 民宿（單人房） | 約 2,000 日圓起 |
+| 青年旅社 | 約 3,000 日圓 |
+| 便宜旅館（單人房） | 約 6,000 日圓起 |
+| 中價位旅館（雙人房） | 約 10,000 日圓起 |
+| 日式旅館（含兩餐） | 約每人 10,000 日圓起 |
+| 四星級旅館（雙人房） | 約 30,000 日圓起 |
+| 五星級旅館（雙人房） | 約 40,000 日圓起 |
+
+（全日本一般價格，非東京專屬；原文無日期，[jnto-budget-guide](../sources/jnto-budget-guide.md)）
 
 ## 各區域的住宿特色
 
@@ -35,7 +49,7 @@ updated: 2026-11-10
 
 ## 尚未有資料的部分
 
-- 各類型住宿的價格（待查）
+- 東京各區域的住宿價格（待查）
 - 如何辨別合法民宿（待查）
 - 住宿稅（待查）
 

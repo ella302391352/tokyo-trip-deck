@@ -1,6 +1,6 @@
 ---
 type: concept
-sources: [jnto-useful-tickets-tokyo, gotokyo-5day-itinerary, zhgchgli-tokyo-5day-2023]
+sources: [jnto-useful-tickets-tokyo, gotokyo-5day-itinerary, zhgchgli-tokyo-5day-2023, jnto-budget-guide]
 updated: 2026-11-10
 ---
 # 交通票券怎麼選
@@ -38,12 +38,20 @@ updated: 2026-11-10
 
 （資訊日期 2024-12，[jnto-useful-tickets-tokyo](../sources/jnto-useful-tickets-tokyo.md)）
 
+另一份 JNTO 資料列有「都營一日通票」700 日圓，以及與上表相同的 Metro 24 小時車票 600 日圓、通用一日通票 900 日圓（原文無日期，[jnto-budget-guide](../sources/jnto-budget-guide.md)）。
+
+## 計程車與公車
+
+- 東京計程車基本車資 500 日圓起；巴士基本票價 210 日圓起（原文無日期，[jnto-budget-guide](../sources/jnto-budget-guide.md)）。
+- 計程車適合行李多時的市區短程，但收費昂貴，最好避免長途（[jnto-budget-guide](../sources/jnto-budget-guide.md)）。
+
 > ⚠️ 可能過期：Tokyo Subway Ticket 價格可能已調整，但目前沒有可存成 raw 的官方來源可證實（待查）。見 [來源頁](../sources/jnto-useful-tickets-tokyo.md)。
 
 ## 機場到市區（成田機場）
 
 - **N'EX 東京來回票**：成田特快（N'EX）往返成田機場與品川、澀谷、新宿、池袋、大宮、橫濱、大船等主要車站，免轉乘；14 天內有效，成人 5,000 円；**限外國旅客**（查驗護照），只在成田機場第 1、2 航廈 JR 售票處及 JR 東日本旅遊服務中心販售。搭上 N'EX 後可轉乘指定東京區域內的其他 JR 東日本列車，但出閘門後不能再次進站（資訊日期 2024-12，[jnto-useful-tickets-tokyo](../sources/jnto-useful-tickets-tokyo.md)）。
 - **利木津巴士來回優惠券**：給抵達成田機場旅客的優惠券，成人 6,000 円，在成田機場利木津巴士售票櫃台購買（資訊日期 2024-12，[jnto-useful-tickets-tokyo](../sources/jnto-useful-tickets-tokyo.md)）。
+- **利木津巴士單程**：成田機場至東京都心 3,200 日圓（原文無日期，[jnto-budget-guide](../sources/jnto-budget-guide.md)）。
 
 **踩雷實例**（個人經驗，資訊日期 2023-06，[zhgchgli-tokyo-5day-2023](../sources/zhgchgli-tokyo-5day-2023.md)）：
 - 去程直接用西瓜卡刷進站要搭成田特快，結果整班都是指定席，只能出站買票再進站。作者補充「好像」可以在站內月台機器買票，未確認。

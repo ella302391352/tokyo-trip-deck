@@ -65,3 +65,14 @@
 - 檢查：check.py 0 錯誤；AI 審查第 1 輪 1 問題 → 修正 → 第 2 輪通過
 - 出錯：有 — 把 N1 網頁摘要中的「著作權屬 JTB」帶進來源頁，raw 中沒有（N2）。與上一篇「頁面最後更新」為同一模式：N1 看過、但沒存進 raw 的資訊滲入 wiki
 - 紀錄：reviews/2026-11-11-N2-funjapan-visit-japan-web.md
+
+## [2026-11-11] workflow | N2 只能依據 raw
+- 動作：使用者同意，AGENTS.md N2 新增「寫 wiki 時只能依據 raw 檔案內容，不得使用 N1 搜尋結果或網頁摘要」
+- 原因：boca 與 funjapan 連續兩篇出現 N1 摘要資訊滲入 wiki
+- 出錯：無
+
+## [2026-11-11] N2 ingest | jnto-budget-guide
+- 動作：先討論後生成（東京以外交通只放來源頁；物價表只收旅客常買項目）；新增 sources/jnto-budget-guide；更新 concepts/budget（官方物價、省錢方法，分官方／個人兩層）、accommodation-area（住宿價格表，消掉 1 項待查）、transit-passes（都營一日券、計程車與公車、利木津單程）、overview、index
+- 檢查：check.py 0 錯誤；AI 審查第 1 輪 1 問題 → 修正 → 第 2 輪通過
+- 出錯：有 — 把未指明地區的巴士票價歸在「東京交通價格」標題下，擴大了原文範圍（N2）。新規則生效：N1 看到的英文版 "pint" 只在討論中說明，未寫入 wiki
+- 紀錄：reviews/2026-11-11-N2-jnto-budget-guide.md
