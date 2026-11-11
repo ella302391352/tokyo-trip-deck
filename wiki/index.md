@@ -14,7 +14,7 @@ updated: 2026-11-11
 | [gotokyo-5day-itinerary](sources/gotokyo-5day-itinerary.md) | GO TOKYO 官方五天行程：相近景點分組、天數取捨、住宿區域 | 2026-03-05 |
 | [jnto-budget-guide](sources/jnto-budget-guide.md) | JNTO 預算指南：住宿／餐飲／交通價格表、省錢方法 | 無日期 |
 | [jnto-useful-tickets-tokyo](sources/jnto-useful-tickets-tokyo.md) | JNTO 東京交通票券比較：IC 卡、一日券、機場票券 | 2024-12-24 |
-| [boca-japan-entry](sources/boca-japan-entry.md) | 外交部領事局：免簽 90 天、行前備妥文件、入境審查、海關申報、禁止攜帶 | 2022-06-21 |
+| [boca-japan-entry](sources/boca-japan-entry.md) | 外交部領事局（舊版頁面）：免簽 90 天、行前備妥文件、入境審查、海關申報、禁止攜帶 | 無日期（原誤標 2022-06-21） |
 | [funjapan-visit-japan-web](sources/funjapan-visit-japan-web.md) | FUN! JAPAN：Visit Japan Web 註冊步驟、QR Code、假網站、同行家人 | 2026-08-28 |
 | [zhgchgli-tokyo-5day-2023](sources/zhgchgli-tokyo-5day-2023.md) | 個人遊記：東京 5 日，提前買票、帶現金、成田特快踩雷、住宿策略 | 2023-07-09 |
 
